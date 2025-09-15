@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import FloatingHeader from "@/components/FloatingHeader";
 import { Footer } from "@/components/ui/footer-section";
+import { FAQSchema, BreadcrumbSchema } from "@/components/ui/schema-markup";
 import {
   CheckCircle,
   X,
@@ -142,8 +143,55 @@ const Pricing = () => {
     }
   ];
 
+  // FAQ Schema for SEO
+  const faqQuestions = [
+    {
+      question: "Can I upgrade from Basic to Professional or Premium?",
+      answer: "Yes, you can upgrade your plan at any time. You'll be charged the prorated amount for the upgrade, and your new features will be available immediately."
+    },
+    {
+      question: "Is the Basic plan really free forever?",
+      answer: "Yes! The Basic plan is completely free with no hidden fees. You can use it as long as you want with up to 100 students."
+    },
+    {
+      question: "What does 'fluid' mean for payment tracking and features?",
+      answer: "Fluid means seamless, real-time processing with no delays or limitations. Payments update instantly, and all features work smoothly without restrictions."
+    },
+    {
+      question: "Do you offer refunds?",
+      answer: "We offer a 30-day money-back guarantee on all paid plans. If you're not satisfied, contact our support team for a full refund."
+    },
+    {
+      question: "What payment methods do you accept?",
+      answer: "We accept all major credit cards (Visa, MasterCard, American Express), PayPal, and bank transfers for the Lifetime plan."
+    },
+    {
+      question: "Is the Lifetime plan really lifetime access?",
+      answer: "Yes! The Lifetime plan gives you permanent access to all current features plus any new features we release in the future, all for a one-time payment."
+    },
+    {
+      question: "Is my data secure?",
+      answer: "Absolutely. We use bank-level encryption, regular security audits, and comply with GDPR and other privacy regulations."
+    },
+    {
+      question: "Do you offer training and onboarding?",
+      answer: "Yes! Basic and Professional plans include self-service onboarding guides. Premium plans include live training sessions, and Lifetime plans include personalized training and migration assistance."
+    },
+    {
+      question: "What kind of support do you provide?",
+      answer: "Basic plans include email support, Professional and Premium plans include priority support, and Lifetime plans include dedicated account management with direct access to our development team."
+    }
+  ];
+
+  const breadcrumbItems = [
+    { name: 'Home', item: 'https://scolink.ink/' },
+    { name: 'Pricing', item: 'https://scolink.ink/pricing' }
+  ];
+
   return (
     <div className="min-h-screen">
+      <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema questions={faqQuestions} />
       {/* Floating Header */}
       <FloatingHeader />
 

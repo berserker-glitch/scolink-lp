@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import FloatingHeader from "@/components/FloatingHeader";
 import { Footer } from "@/components/ui/footer-section";
+import { BreadcrumbSchema } from "@/components/ui/schema-markup";
 import {
   Users,
   CreditCard,
@@ -76,8 +77,14 @@ const Features = () => {
     }
   ];
 
+  const breadcrumbItems = [
+    { name: 'Home', item: 'https://scolink.ink/' },
+    { name: 'Features', item: 'https://scolink.ink/features' }
+  ];
+
   return (
     <div className="min-h-screen">
+      <BreadcrumbSchema items={breadcrumbItems} />
       {/* Floating Header */}
       <FloatingHeader />
 

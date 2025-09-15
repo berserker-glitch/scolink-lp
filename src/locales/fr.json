@@ -508,6 +508,32 @@
         "phone": "+33 1 23 45 67 89"
       }
     }
+  },
+  "seo": {
+    "home": {
+      "title": "Scolink - Système de Gestion Scolaire | Plateforme de Centre Éducatif",
+      "description": "Système complet de gestion scolaire pour les centres éducatifs. Gestion des étudiants, suivi des présences, planification, paiements et analyses. Support multilingue : Anglais, Français, Arabe.",
+      "keywords": "système de gestion scolaire, gestion centre éducatif, logiciel gestion étudiants, administration scolaire, gestion présences, plateforme éducative, scolink"
+    },
+    "features": {
+      "title": "Fonctionnalités - Système de Gestion Scolaire Scolink",
+      "description": "Découvrez les fonctionnalités complètes de gestion scolaire : gestion du cycle de vie étudiant, suivi des paiements, gestion des matières, gestion du personnel, planification et analyses.",
+      "keywords": "fonctionnalités gestion scolaire, système gestion étudiants, suivi présences, gestion paiements, fonctionnalités logiciel éducatif"
+    },
+    "pricing": {
+      "title": "Tarifs - Plans du Système de Gestion Scolaire Scolink",
+      "description": "Choisissez le plan parfait pour votre institution éducative. Basique (Gratuit), Professionnel (25€/mois), Premium (50€/mois), ou À Vie (500€). Évoluez selon vos besoins.",
+      "keywords": "tarifs gestion scolaire, tarifs logiciel éducatif, plans gestion scolaire, tarifs scolink"
+    },
+    "terms": {
+      "title": "Conditions d'utilisation - Plateforme Éducative Scolink",
+      "description": "Lisez les conditions d'utilisation de Scolink pour notre plateforme de gestion éducative. Découvrez l'utilisation du service, la confidentialité des données et les accords légaux.",
+      "keywords": "conditions d'utilisation, conditions plateforme éducative, juridique scolink, conditions gestion scolaire"
+    },
+    "404": {
+      "title": "Page Non Trouvée - Système de Gestion Scolaire Scolink",
+      "description": "La page que vous recherchez n'existe pas. Retournez à la page d'accueil de la plateforme de gestion scolaire Scolink.",
+      "keywords": "erreur 404, page non trouvée, gestion scolaire scolink"
+    }
   }
-  }
-}
+  }}
