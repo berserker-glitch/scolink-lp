@@ -13,11 +13,14 @@ import {
   Clock, 
   MapPin, 
   CheckCircle, 
-  Star,
   ArrowRight,
   School,
   BookOpen,
-  UserCheck
+  UserCheck,
+  Monitor,
+  Smartphone,
+  Globe,
+  Database
 } from "lucide-react";
 
 const LandingPage = () => {
@@ -25,77 +28,82 @@ const LandingPage = () => {
     {
       icon: <Users className="h-6 w-6" />,
       title: "Student Management",
-      description: "Comprehensive student profiles, enrollment tracking, and academic progress monitoring."
+      description: "Complete student profiles with enrollment tracking, academic history, and progress monitoring in one centralized system."
     },
     {
       icon: <UserCheck className="h-6 w-6" />,
-      title: "Staff Management",
-      description: "Manage teachers, administrators, and support staff with role-based access controls."
+      title: "Staff Administration", 
+      description: "Manage teachers, administrators, and support staff with role-based permissions and performance tracking."
     },
     {
       icon: <Calendar className="h-6 w-6" />,
-      title: "Smart Scheduling",
-      description: "Automated timetables, class schedules, and resource allocation with conflict detection."
+      title: "Intelligent Scheduling",
+      description: "AI-powered timetable generation with automatic conflict resolution and resource optimization."
     },
     {
       icon: <CreditCard className="h-6 w-6" />,
-      title: "Payment Processing",
-      description: "Streamlined fee collection, payment tracking, and automated billing systems."
+      title: "Financial Management",
+      description: "Automated billing, payment processing, fee tracking, and comprehensive financial reporting."
     },
     {
       icon: <BarChart3 className="h-6 w-6" />,
-      title: "Analytics Dashboard",
-      description: "Real-time insights into performance metrics, attendance, and financial reporting."
+      title: "Advanced Analytics",
+      description: "Real-time dashboards with student performance metrics, attendance analytics, and operational insights."
     },
     {
       icon: <MapPin className="h-6 w-6" />,
-      title: "Multi-Center Support",
-      description: "Manage multiple educational locations from a single, unified platform."
+      title: "Multi-Location Management",
+      description: "Centrally manage multiple educational centers with location-specific settings and unified reporting."
     }
   ];
 
-  const benefits = [
+  const appPreviews = [
     {
-      title: "Streamlined Operations",
-      description: "Reduce administrative overhead by up to 70% with automated workflows and centralized management.",
-      stat: "70%",
-      label: "Time Saved"
+      title: "Student Dashboard",
+      description: "Intuitive student management interface with enrollment, grades, and communication tools.",
+      placeholder: "Dashboard Preview - Student profiles, quick actions, recent activity",
+      icon: <Users className="h-5 w-5" />
     },
     {
-      title: "Enhanced Communication",
-      description: "Keep parents, students, and staff connected with real-time updates and notifications.",
-      stat: "95%",
-      label: "Parent Satisfaction"
+      title: "Class Scheduling System", 
+      description: "Visual timetable builder with drag-and-drop functionality and conflict detection.",
+      placeholder: "Scheduling Interface - Calendar view, class assignments, room management",
+      icon: <Calendar className="h-5 w-5" />
     },
     {
-      title: "Data-Driven Decisions",
-      description: "Make informed decisions with comprehensive analytics and performance insights.",
-      stat: "3x",
-      label: "Better Insights"
+      title: "Analytics & Reporting",
+      description: "Comprehensive analytics dashboard with performance metrics and financial insights.",
+      placeholder: "Analytics Dashboard - Charts, KPIs, trend analysis, export options",
+      icon: <BarChart3 className="h-5 w-5" />
+    },
+    {
+      title: "Mobile Application",
+      description: "Native mobile apps for iOS and Android with offline capabilities.",
+      placeholder: "Mobile App Screens - Student portal, parent dashboard, teacher tools",
+      icon: <Smartphone className="h-5 w-5" />
     }
   ];
 
-  const testimonials = [
+  const capabilities = [
     {
-      name: "Dr. Sarah Chen",
-      role: "Principal, Sunrise Academy",
-      content: "Scolink transformed our administrative processes. What used to take hours now takes minutes.",
-      rating: 5,
-      avatar: "SC"
+      stat: "50,000+",
+      label: "Students Managed",
+      description: "Actively managing student records across our platform"
     },
     {
-      name: "Michael Rodriguez",
-      role: "IT Director, Metro Education",
-      content: "The multi-center management feature is incredible. We can oversee all 12 locations effortlessly.",
-      rating: 5,
-      avatar: "MR"
+      stat: "1,200+", 
+      label: "Educational Centers",
+      description: "Schools and institutions using Scolink worldwide"
     },
     {
-      name: "Emma Thompson",
-      role: "Administrator, Elite Learning",
-      content: "Parents love the real-time updates, and our staff efficiency has improved dramatically.",
-      rating: 5,
-      avatar: "ET"
+      stat: "99.9%",
+      label: "System Uptime",
+      description: "Reliable platform with enterprise-grade infrastructure"
+    },
+    {
+      stat: "24/7",
+      label: "Support Available", 
+      description: "Round-the-clock technical support and assistance"
     }
   ];
 
@@ -108,7 +116,7 @@ const LandingPage = () => {
           <PixelBlast 
             variant="circle"
             pixelSize={4}
-            color="#3B82F6"
+            color="#8B5CF6"
             patternScale={2.5}
             patternDensity={0.8}
             enableRipples={true}
@@ -124,15 +132,15 @@ const LandingPage = () => {
           <div className="max-w-4xl mx-auto animate-fade-up">
             <Badge variant="outline" className="mb-4 bg-primary/10 text-primary border-primary/20">
               <School className="h-4 w-4 mr-2" />
-              Educational Management Platform
+              Complete Educational Management Platform
             </Badge>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent leading-tight">
-              Modernize Your Educational Center
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent leading-tight">
+              Transform Your Educational Center
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Streamline operations, enhance learning experiences, and drive success with Scolink's comprehensive management platform designed for modern educational institutions.
+              Comprehensive management system for modern educational institutions. Streamline operations, enhance learning experiences, and drive institutional success with our all-in-one platform.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -141,7 +149,7 @@ const LandingPage = () => {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button variant="outline" size="lg" className="px-8 py-6 text-lg hover-scale">
-                Watch Demo
+                Schedule Demo
               </Button>
             </div>
             
@@ -156,35 +164,71 @@ const LandingPage = () => {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="h-4 w-4 text-success" />
-                24/7 support
+                Enterprise support
               </div>
             </div>
           </div>
         </div>
-        
-        {/* Floating Elements */}
-        <div className="absolute top-20 left-10 animate-float">
-          <div className="bg-primary/10 rounded-full p-4">
-            <GraduationCap className="h-8 w-8 text-primary" />
+      </section>
+
+      {/* Platform Overview */}
+      <section className="py-24 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16 animate-fade-up">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              See Scolink in 
+              <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent"> Action</span>
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Explore our intuitive interface designed for educational excellence
+            </p>
           </div>
-        </div>
-        <div className="absolute bottom-20 right-10 animate-float" style={{ animationDelay: '1s' }}>
-          <div className="bg-secondary/10 rounded-full p-4">
-            <BookOpen className="h-8 w-8 text-secondary" />
+          
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {appPreviews.map((preview, index) => (
+              <div key={index} className={`animate-fade-up ${index % 2 === 0 ? 'lg:order-1' : 'lg:order-2'}`} style={{ animationDelay: `${index * 0.1}s` }}>
+                <Card className="hover-lift bg-gradient-card border-0 shadow-educational">
+                  <CardHeader>
+                    <div className="flex items-center gap-3 mb-2">
+                      <div className="bg-primary/10 rounded-lg p-2">
+                        <div className="text-primary">
+                          {preview.icon}
+                        </div>
+                      </div>
+                      <CardTitle className="text-xl">{preview.title}</CardTitle>
+                    </div>
+                  </CardHeader>
+                  <CardContent>
+                    <CardDescription className="text-base leading-relaxed mb-4">
+                      {preview.description}
+                    </CardDescription>
+                    
+                    {/* Image Placeholder */}
+                    <div className="bg-muted/50 border-2 border-dashed border-muted-foreground/20 rounded-lg aspect-video flex items-center justify-center p-8">
+                      <div className="text-center text-muted-foreground">
+                        <Monitor className="h-12 w-12 mx-auto mb-3 opacity-50" />
+                        <p className="text-sm font-medium mb-2">App Screenshot Placeholder</p>
+                        <p className="text-xs opacity-70">{preview.placeholder}</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* Features Section */}
-      <section className="py-24 bg-muted/30">
+      <section className="py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-up">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Everything You Need to 
-              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"> Succeed</span>
+              Complete Educational 
+              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"> Management Suite</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive tools designed to handle every aspect of educational center management
+              Everything you need to run a modern educational institution efficiently
             </p>
           </div>
           
@@ -210,70 +254,88 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Benefits Section */}
-      <section className="py-24">
+      {/* Platform Capabilities */}
+      <section className="py-24 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-up">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Proven Results for 
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Educational Excellence</span>
+              Trusted Platform 
+              <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Statistics</span>
             </h2>
+            <p className="text-xl text-muted-foreground">
+              Join the growing community of educational institutions using Scolink
+            </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
-            {benefits.map((benefit, index) => (
-              <div key={index} className="text-center animate-slide-in-left" style={{ animationDelay: `${index * 0.2}s` }}>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {capabilities.map((capability, index) => (
+              <div key={index} className="text-center animate-slide-in-left" style={{ animationDelay: `${index * 0.1}s` }}>
                 <div className="bg-gradient-primary rounded-full w-24 h-24 mx-auto mb-6 flex items-center justify-center shadow-glow">
-                  <span className="text-3xl font-bold text-white">{benefit.stat}</span>
+                  <span className="text-2xl font-bold text-white">{capability.stat}</span>
                 </div>
-                <h3 className="text-2xl font-bold mb-4">{benefit.title}</h3>
-                <p className="text-muted-foreground mb-2 leading-relaxed">{benefit.description}</p>
-                <Badge variant="outline" className="text-primary border-primary/20">
-                  {benefit.label}
-                </Badge>
+                <h3 className="text-xl font-bold mb-2">{capability.label}</h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">{capability.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="py-24 bg-muted/30">
+      {/* Technology Stack */}
+      <section className="py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-up">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Trusted by 
-              <span className="bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent">Education Leaders</span>
+              Built with 
+              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Modern Technology</span>
             </h2>
-            <p className="text-xl text-muted-foreground">
-              Join thousands of educational institutions already using Scolink
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Enterprise-grade infrastructure ensuring reliability, security, and scalability
             </p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <Card key={index} className="hover-scale bg-gradient-card border-0 shadow-educational animate-fade-up" style={{ animationDelay: `${index * 0.1}s` }}>
-                <CardContent className="pt-6">
-                  <div className="flex mb-4">
-                    {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star key={i} className="h-4 w-4 text-warning fill-warning" />
-                    ))}
-                  </div>
-                  <blockquote className="text-lg mb-6 italic">
-                    "{testimonial.content}"
-                  </blockquote>
-                  <div className="flex items-center gap-4">
-                    <div className="bg-primary text-primary-foreground rounded-full w-12 h-12 flex items-center justify-center font-bold">
-                      {testimonial.avatar}
-                    </div>
-                    <div>
-                      <div className="font-semibold">{testimonial.name}</div>
-                      <div className="text-sm text-muted-foreground">{testimonial.role}</div>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
+            <Card className="hover-lift bg-gradient-card border-0 shadow-educational text-center animate-fade-up">
+              <CardHeader>
+                <div className="bg-primary/10 rounded-lg p-4 w-fit mx-auto mb-4">
+                  <Shield className="h-8 w-8 text-primary" />
+                </div>
+                <CardTitle>Security First</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  Bank-level encryption, GDPR compliance, and regular security audits to protect your data.
+                </CardDescription>
+              </CardContent>
+            </Card>
+            
+            <Card className="hover-lift bg-gradient-card border-0 shadow-educational text-center animate-fade-up" style={{ animationDelay: '0.1s' }}>
+              <CardHeader>
+                <div className="bg-primary/10 rounded-lg p-4 w-fit mx-auto mb-4">
+                  <Database className="h-8 w-8 text-primary" />
+                </div>
+                <CardTitle>Scalable Infrastructure</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  Cloud-based architecture that grows with your institution, handling any number of students.
+                </CardDescription>
+              </CardContent>
+            </Card>
+            
+            <Card className="hover-lift bg-gradient-card border-0 shadow-educational text-center animate-fade-up" style={{ animationDelay: '0.2s' }}>
+              <CardHeader>
+                <div className="bg-primary/10 rounded-lg p-4 w-fit mx-auto mb-4">
+                  <Globe className="h-8 w-8 text-primary" />
+                </div>
+                <CardTitle>Global Accessibility</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  Multi-language support, mobile responsiveness, and 24/7 accessibility from anywhere.
+                </CardDescription>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -283,26 +345,26 @@ const LandingPage = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-3xl mx-auto animate-fade-up">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Ready to Transform Your Educational Center?
+              Ready to Revolutionize Your Educational Management?
             </h2>
             <p className="text-xl text-white/90 mb-8">
-              Join the educational revolution. Start your free trial today and experience the difference Scolink can make.
+              Join thousands of educational institutions that have transformed their operations with Scolink. Start your free trial today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" className="px-8 py-6 text-lg hover-lift">
-                Start Free Trial
+                Start 30-Day Free Trial
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button size="lg" variant="outline" className="px-8 py-6 text-lg text-white border-white hover:bg-white hover:text-primary transition-educational">
-                Contact Sales
+                Contact Sales Team
               </Button>
             </div>
           </div>
         </div>
         
         {/* Background Elements */}
-        <div className="absolute -top-20 -right-20 w-40 h-40 bg-white/10 rounded-full animate-float"></div>
-        <div className="absolute -bottom-20 -left-20 w-60 h-60 bg-white/10 rounded-full animate-float" style={{ animationDelay: '1.5s' }}></div>
+        <div className="absolute -top-20 -right-20 w-40 h-40 bg-white/10 rounded-full"></div>
+        <div className="absolute -bottom-20 -left-20 w-60 h-60 bg-white/10 rounded-full"></div>
       </section>
 
       {/* Footer */}
@@ -318,7 +380,8 @@ const LandingPage = () => {
             <div className="flex items-center gap-6 text-sm text-muted-foreground">
               <a href="#" className="hover:text-primary transition-educational">Privacy Policy</a>
               <a href="#" className="hover:text-primary transition-educational">Terms of Service</a>
-              <a href="#" className="hover:text-primary transition-educational">Support</a>
+              <a href="#" className="hover:text-primary transition-educational">Support Center</a>
+              <a href="#" className="hover:text-primary transition-educational">API Documentation</a>
             </div>
             <p className="text-sm text-muted-foreground">
               © 2024 Scolink. All rights reserved.

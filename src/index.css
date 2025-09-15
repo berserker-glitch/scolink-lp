@@ -9,62 +9,62 @@ All colors MUST be HSL for consistent theming.
 
 @layer base {
   :root {
-    /* Base colors - Clean educational theme */
-    --background: 0 0% 100%;
+    /* Base colors - Custom Purple Theme */
+    --background: 307 100% 99%;  /* #FEFCFF */
     --foreground: 222 40% 10%;
 
     /* Cards and surfaces */
-    --card: 0 0% 100%;
+    --card: 307 100% 99%;  /* #FEFCFF */
     --card-foreground: 222 40% 10%;
 
     /* Popovers and modals */
-    --popover: 0 0% 100%;
+    --popover: 307 100% 99%;  /* #FEFCFF */
     --popover-foreground: 222 40% 10%;
 
-    /* Primary - Educational Blue */
-    --primary: 220 70% 50%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 220 70% 65%;
+    /* Primary - Custom Purple */
+    --primary: 258 90% 66%;  /* #8B5CF6 */
+    --primary-foreground: 307 100% 99%;  /* #FEFCFF */
+    --primary-glow: 258 90% 80%;
 
-    /* Secondary - Success Green */
-    --secondary: 142 76% 36%;
-    --secondary-foreground: 0 0% 100%;
+    /* Secondary - Lighter Purple */
+    --secondary: 258 90% 85%;
+    --secondary-foreground: 222 40% 10%;
 
     /* Muted tones */
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 9% 46%;
+    --muted: 258 30% 96%;
+    --muted-foreground: 258 10% 46%;
 
-    /* Accent - Warm Orange */
-    --accent: 25 95% 53%;
-    --accent-foreground: 0 0% 100%;
+    /* Accent - Primary Purple variant */
+    --accent: 258 90% 66%;
+    --accent-foreground: 307 100% 99%;
 
     /* Status colors */
     --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 307 100% 99%;
     --success: 142 76% 36%;
-    --success-foreground: 0 0% 100%;
+    --success-foreground: 307 100% 99%;
     --warning: 38 92% 50%;
-    --warning-foreground: 0 0% 100%;
+    --warning-foreground: 307 100% 99%;
 
     /* Interactive elements */
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 220 70% 50%;
+    --border: 258 20% 91%;
+    --input: 258 20% 91%;
+    --ring: 258 90% 66%;
 
     /* Layout */
     --radius: 0.75rem;
 
-    /* Educational gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(220 70% 50%), hsl(220 70% 65%));
-    --gradient-secondary: linear-gradient(135deg, hsl(142 76% 36%), hsl(142 76% 50%));
-    --gradient-hero: linear-gradient(135deg, hsl(220 70% 50% / 0.1), hsl(142 76% 36% / 0.1));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(220 14% 98%));
+    /* Purple theme gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(258 90% 66%), hsl(258 90% 80%));
+    --gradient-secondary: linear-gradient(135deg, hsl(258 90% 85%), hsl(258 90% 90%));
+    --gradient-hero: linear-gradient(135deg, hsl(258 90% 66% / 0.1), hsl(258 90% 80% / 0.1));
+    --gradient-card: linear-gradient(145deg, hsl(307 100% 99%), hsl(258 30% 98%));
 
-    /* Shadows - Educational depth */
-    --shadow-sm: 0 1px 2px 0 hsl(220 70% 50% / 0.05);
-    --shadow-md: 0 4px 6px -1px hsl(220 70% 50% / 0.1), 0 2px 4px -1px hsl(220 70% 50% / 0.06);
-    --shadow-lg: 0 10px 15px -3px hsl(220 70% 50% / 0.1), 0 4px 6px -2px hsl(220 70% 50% / 0.05);
-    --shadow-glow: 0 0 30px hsl(220 70% 65% / 0.3);
+    /* Purple theme shadows */
+    --shadow-sm: 0 1px 2px 0 hsl(258 90% 66% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(258 90% 66% / 0.1), 0 2px 4px -1px hsl(258 90% 66% / 0.06);
+    --shadow-lg: 0 10px 15px -3px hsl(258 90% 66% / 0.1), 0 4px 6px -2px hsl(258 90% 66% / 0.05);
+    --shadow-glow: 0 0 30px hsl(258 90% 80% / 0.3);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
