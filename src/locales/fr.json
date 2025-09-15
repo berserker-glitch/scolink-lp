@@ -1,0 +1,513 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "features": "Fonctionnalités",
+    "pricing": "Tarification",
+    "capabilities": "Capacités",
+    "technology": "Technologie",
+    "contact": "Contact",
+    "signin": "Se Connecter",
+    "getstarted": "Commencer",
+    "loginUrl": "https://app.scolink.ink/login"
+  },
+  "footer": {
+    "description": "Transformez votre centre éducatif avec notre plateforme de gestion complète. Rationalisez les opérations, améliorez les expériences d'apprentissage et favorisez le succès institutionnel.",
+    "copyright": "Tous droits réservés.",
+    "sections": {
+      "product": "Produit",
+      "company": "Entreprise",
+      "resources": "Ressources",
+      "contact": "Contact"
+    },
+    "links": {
+      "features": "Fonctionnalités",
+      "pricing": "Tarification",
+      "platform": "Plateforme",
+      "technology": "Technologie",
+      "about": "À propos de nous",
+      "contact": "Contact",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "howtouse": "Comment utiliser"
+    },
+    "contact": {
+      "email": "info@scolink.com",
+      "phone": "+33 1 23 45 67 89",
+      "address": "Paris, France"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "youtube": "Youtube",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "hero": {
+    "badge": "Système pour Centres Éducatifs & Gestion des Paiements",
+    "title": "Élevez Votre",
+    "subtitle": "Centre Éducatif",
+    "description": "Système de gestion complet pour les institutions éducatives. Gérez les étudiants, suivez les paiements, surveillez les performances et rationalisez les opérations avec des analyses en temps réel et un support multi-sites.",
+    "cta": {
+      "primary": "Commencer l'Essai Gratuit",
+      "secondary": "Planifier une Démo"
+    },
+    "features": {
+      "noSetup": "Aucun frais d'installation",
+      "freeTrial": "Essai gratuit de 30 jours",
+      "support": "Support entreprise"
+    }
+  },
+  "features": {
+    "badge": "Fonctionnalités Complètes",
+    "hero": {
+      "title1": "Choisissez Votre Plan,",
+      "title2": "Débloquez les Fonctionnalités",
+      "description": "De notre plan Basic gratuit aux packages Premium et Lifetime complets, découvrez quelles fonctionnalités correspondent aux besoins de votre institution. Chaque plan est conçu pour évoluer avec la croissance de votre centre éducatif.",
+      "cta": "Commencer Aujourd'hui"
+    },
+    "core": {
+      "title": "Fonctionnalités Principales",
+      "description": "Notre suite complète de fonctionnalités couvre tous les aspects de la gestion des centres éducatifs, conçue pour rationaliser les opérations et améliorer les résultats éducatifs."
+    },
+    "title": "Suite Complète de Gestion Éducative",
+    "subtitle": "Tout ce dont vous avez besoin pour gérer efficacement une institution éducative moderne",
+    "description": "Découvrez une suite complète d'outils et de fonctionnalités conçues spécifiquement pour gérer les institutions éducatives avec une grande efficacité",
+    "items": {
+      "studentManagement": {
+        "title": "Gestion du Cycle de Vie des Étudiants",
+        "description": "Gestion complète des étudiants de l'inscription à la graduation avec profils détaillés, suivi des paiements et surveillance des progrès académiques."
+      },
+      "paymentTracking": {
+        "title": "Suivi et Surveillance des Paiements",
+        "description": "Suivi des paiements en temps réel, facturation automatisée, notifications de retard et rapports financiers complets pour tous les étudiants."
+      },
+      "subjectManagement": {
+        "title": "Gestion des Matières et Groupes",
+        "description": "Organisez les cours, classes et groupes d'étudiants avec une planification flexible et une gestion des capacités sur plusieurs matières."
+      },
+      "staffManagement": {
+        "title": "Gestion des Enseignants et du Personnel",
+        "description": "Gérez les enseignants, affectations et personnel avec accès basé sur les rôles, suivi des performances et organisation départementale."
+      },
+      "scheduling": {
+        "title": "Système de Planning et Présence",
+        "description": "Gestion visuelle des emplois du temps avec suivi des présences, planification des cours et surveillance des sessions en temps réel."
+      },
+      "analytics": {
+        "title": "Tableau de Bord des Analyses et Insights",
+        "description": "Métriques en temps réel sur les inscriptions, revenus, taux de présence et performances opérationnelles avec rapports détaillés."
+      }
+    },
+    "additional": {
+      "eventManagement": {
+        "title": "Gestion des Événements",
+        "description": "Organisez et gérez les événements éducatifs, ateliers et activités spéciales avec une planification complète et un système d'inscription."
+      },
+      "dashboard": {
+        "title": "Tableau de Bord Temps Réel",
+        "description": "Tableau de bord d'analyses complet avec métriques en direct, indicateurs de performance et insights exploitables pour des décisions basées sur les données."
+      }
+    },
+    "benefits": {
+      "userFriendly": {
+        "title": "Facile d'Utilisation",
+        "description": "Interface intuitive conçue pour la facilité d'utilisation"
+      },
+      "scalable": {
+        "title": "Évolutif",
+        "description": "Évolue avec les besoins de votre institution"
+      },
+      "secure": {
+        "title": "Sécurisé",
+        "description": "Sécurité de niveau bancaire et protection des données"
+      }
+    },
+    "cta": {
+      "title": "Prêt à Transformer Votre Centre Éducatif ?",
+      "description": "Rejoignez des milliers d'institutions éducatives dans le monde qui font confiance à Scolink pour leurs besoins de gestion.",
+      "trial": "Commencer l'Essai Gratuit",
+      "demo": "Planifier une Démo"
+    }
+  },
+  "capabilities": {
+    "title": "Statistiques de Plateforme Fiables",
+    "subtitle": "Rejoignez la communauté croissante d'institutions éducatives utilisant Scolink",
+    "description": "Rejoignez des milliers d'institutions éducatives à travers le monde qui font confiance à Scolink pour gérer leurs opérations quotidiennes",
+    "items": {
+      "students": {
+        "stat": "50 000+",
+        "label": "Étudiants Gérés",
+        "description": "Gestion active des dossiers d'étudiants sur notre plateforme"
+      },
+      "centers": {
+        "stat": "1 200+",
+        "label": "Centres Éducatifs",
+        "description": "Écoles et institutions utilisant Scolink dans le monde"
+      },
+      "uptime": {
+        "stat": "99,9%",
+        "label": "Temps de Fonctionnement",
+        "description": "Plateforme fiable avec infrastructure de niveau entreprise"
+      },
+      "support": {
+        "stat": "24/7",
+        "label": "Support Disponible",
+        "description": "Support technique 24h/24 et 7j/7"
+      }
+    }
+  },
+  "technology": {
+    "title": "Construit avec une Technologie Moderne",
+    "subtitle": "Infrastructure de niveau entreprise assurant fiabilité, sécurité et évolutivité",
+    "description": "Explorez notre infrastructure avancée et nos technologies modernes qui assurent des performances fiables, sécurisées et évolutives",
+    "items": {
+      "security": {
+        "title": "Sécurité Prioritaire",
+        "description": "Chiffrement de niveau bancaire, conformité RGPD et audits de sécurité réguliers pour protéger vos données."
+      },
+      "infrastructure": {
+        "title": "Infrastructure Évolutive",
+        "description": "Architecture cloud qui évolue avec votre institution, gérant n'importe quel nombre d'étudiants."
+      },
+      "accessibility": {
+        "title": "Accessibilité Globale",
+        "description": "Support multi-langues, responsive mobile et accessibilité 24/7 depuis n'importe où."
+      }
+    }
+  },
+  "cta": {
+    "title": "Prêt à Élever Votre Centre Éducatif ?",
+    "subtitle": "Rejoignez les institutions éducatives leaders utilisant Scolink pour rationaliser les opérations, optimiser les paiements et améliorer la réussite des étudiants. Commencez votre essai gratuit dès aujourd'hui.",
+    "buttons": {
+      "trial": "Commencer l'Essai Gratuit de 30 Jours",
+      "sales": "Contacter l'Équipe Commerciale"
+    }
+  },
+  "language": {
+    "english": "English",
+    "french": "Français",
+    "arabic": "العربية"
+  },
+  "notfound": {
+    "message": "Oups ! Page introuvable",
+    "returnHome": "Retour à l'accueil"
+  },
+  "pricing": {
+    "badge": "Tarification Transparente",
+    "hero": {
+      "title1": "Choisissez le Plan Parfait pour",
+      "title2": "Votre Institution",
+      "description": "Commencez gratuitement avec notre plan Basic pour jusqu'à 100 étudiants, ou évoluez vers notre plan Premium avec un nombre illimité d'étudiants et des fonctionnalités avancées. Choisissez l'ajustement parfait pour votre institution éducative.",
+      "features": {
+        "freeBasic": "Plan Basic gratuit",
+        "noSetupFees": "Aucun frais d'installation",
+        "upgradeAnytime": "Évoluez à tout moment"
+      }
+    },
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "price": "$0",
+        "period": "/mois",
+        "description": "Parfait pour les petits centres éducatifs qui débutent",
+        "buttonText": "Commencer Gratuitement",
+        "features": {
+          "students": "Jusqu'à 100 étudiants",
+          "studentManagement": "Gestion des étudiants",
+          "paymentTracking": "Suivi des paiements basique",
+          "groupScheduling": "Planning basique des groupes",
+          "noAttendance": "Pas de prise de présence",
+          "noStaffAccounts": "Comptes personnel",
+          "noTeacherAccounts": "Comptes enseignants"
+        }
+      },
+      "professional": {
+        "name": "Professionnel",
+        "price": "$25",
+        "period": "/mois",
+        "description": "Idéal pour les institutions éducatives en croissance",
+        "buttonText": "Commencer le Plan Professionnel",
+        "features": {
+          "students": "Jusqu'à 1500 étudiants",
+          "studentManagement": "Gestion des étudiants",
+          "paymentTracking": "Suivi des paiements fluide",
+          "groupScheduling": "Planning complet des groupes",
+          "staffAccounts": "Comptes personnel",
+          "attendanceTaking": "Prise de présence",
+          "advancedAnalytics": "Analyses avancées",
+          "noTeacherAccounts": "Comptes enseignants",
+          "noUnlimitedSubjects": "Sujets illimités"
+        }
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "$50",
+        "period": "/mois",
+        "description": "Solution complète pour les grandes institutions éducatives",
+        "buttonText": "Commencer le Plan Premium",
+        "features": {
+          "students": "Sujets et étudiants illimités",
+          "studentManagement": "Gestion des étudiants",
+          "everythingFluid": "Tout est fluide",
+          "teacherAccounts": "Comptes enseignants",
+          "studentAccounts": "Comptes étudiants",
+          "staffAccounts": "Comptes personnel",
+          "advancedAnalytics": "Analyses avancées",
+          "dedicatedManager": "Gestionnaire de compte dédié"
+        }
+      },
+      "lifetime": {
+        "name": "À Vie",
+        "price": "$500",
+        "period": " paiement unique",
+        "description": "Accès complet à vie à toutes les fonctionnalités",
+        "buttonText": "Obtenir l'Accès à Vie",
+        "features": {
+          "everythingFromPremium": "Tout du Premium",
+          "lifetimeAccess": "Accès à vie",
+          "newFeatures": "Accès aux nouvelles fonctionnalités",
+          "freeUpdates": "Mises à jour gratuites pour toujours",
+          "dedicatedManager": "Gestionnaire de compte dédié",
+          "earlyAccess": "Accès anticipé aux fonctionnalités",
+          "migrationAssistance": "Assistance à la migration",
+          "advancedAnalytics": "Analyses avancées"
+        }
+      }
+    },
+    "popular": "Le Plus Populaire",
+    "comparison": {
+      "title": "Comparer Toutes les",
+      "subtitle": "Fonctionnalités",
+      "description": "Découvrez exactement ce qui est inclus dans chaque plan et trouvez l'ajustement parfait pour votre institution.",
+      "table": {
+        "features": "Fonctionnalités",
+        "basic": "Basic",
+        "professional": "Professionnel",
+        "premium": "Premium",
+        "lifetime": "À Vie",
+        "basicPrice": "Gratuit",
+        "professionalPrice": "$25/mois",
+        "premiumPrice": "$50/mois",
+        "lifetimePrice": "$500 une fois",
+        "students": "Étudiants",
+        "paymentTracking": "Suivi des Paiements",
+        "basicTracking": "Basique",
+        "fluidTracking": "Fluide",
+        "everythingFluid": "Tout Fluide",
+        "groupScheduling": "Planning des Groupes",
+        "fullScheduling": "Complet",
+        "attendanceTaking": "Prise de Présence",
+        "staffAccounts": "Comptes Personnel",
+        "teacherAccounts": "Comptes Enseignants",
+        "studentAccounts": "Comptes Étudiants",
+        "analytics": "Analyses et Rapports",
+        "advanced": "Avancé",
+        "futureFeatures": "Fonctionnalités Futures"
+      }
+    },
+    "bestPlan": {
+      "title": "Choisissez le Meilleur Plan pour Vous",
+      "description": "Commencez gratuitement avec Basic, évoluez vers Professionnel pour les institutions en croissance, ou optez pour Premium pour un accès illimité. Le plan à vie vous fait économiser le plus sur le long terme.",
+      "basic": {
+        "name": "Plan Basic",
+        "price": "Gratuit à vie",
+        "description": "Parfait pour les startups"
+      },
+      "professional": {
+        "name": "Professionnel",
+        "price": "$25/mois",
+        "description": "Meilleur pour la croissance"
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "$50/mois",
+        "description": "Fonctionnalités complètes"
+      },
+      "lifetime": {
+        "name": "À Vie",
+        "price": "$500 une fois",
+        "description": "Meilleure valeur à long terme"
+      }
+    },
+    "faq": {
+      "title": "Questions Fréquemment",
+      "subtitle": "Posées",
+      "description": "Tout ce que vous devez savoir sur nos tarifs et plans.",
+      "questions": {
+        "upgrade": {
+          "question": "Puis-je évoluer de Basic vers Professionnel ou Premium ?",
+          "answer": "Oui, vous pouvez évoluer votre plan à tout moment. Vous serez facturé au prorata pour l'évolution, et vos nouvelles fonctionnalités seront disponibles immédiatement."
+        },
+        "freeForever": {
+          "question": "Le plan Basic est-il vraiment gratuit pour toujours ?",
+          "answer": "Oui ! Le plan Basic est complètement gratuit sans frais cachés. Vous pouvez l'utiliser aussi longtemps que vous voulez avec jusqu'à 100 étudiants."
+        },
+        "fluidMeaning": {
+          "question": "Que signifie 'fluide' pour le suivi des paiements et les fonctionnalités ?",
+          "answer": "Fluide signifie un traitement transparent et en temps réel sans délai ni limitation. Les paiements se mettent à jour instantanément, et toutes les fonctionnalités fonctionnent en toute fluidité."
+        },
+        "refunds": {
+          "question": "Offrez-vous des remboursements ?",
+          "answer": "Nous offrons une garantie de remboursement de 30 jours sur tous les plans payants. Si vous n'êtes pas satisfait, contactez notre équipe de support pour un remboursement complet."
+        },
+        "paymentMethods": {
+          "question": "Quels modes de paiement acceptez-vous ?",
+          "answer": "Nous acceptons toutes les cartes de crédit majeures (Visa, MasterCard, American Express), PayPal, et les virements bancaires pour le plan à vie."
+        },
+        "lifetimeAccess": {
+          "question": "Le plan à vie est-il vraiment un accès à vie ?",
+          "answer": "Oui ! Le plan à vie vous donne un accès permanent à toutes les fonctionnalités actuelles plus toutes les nouvelles fonctionnalités que nous publierons à l'avenir, le tout pour un paiement unique."
+        },
+        "dataSecurity": {
+          "question": "Mes données sont-elles sécurisées ?",
+          "answer": "Absolument. Nous utilisons un chiffrement de niveau bancaire, des audits de sécurité réguliers, et nous nous conformons au RGPD et autres réglementations de confidentialité."
+        },
+        "training": {
+          "question": "Offrez-vous une formation et un accompagnement ?",
+          "answer": "Oui ! Les plans Basic et Professionnel incluent des guides d'accompagnement en libre-service. Les plans Premium incluent des sessions de formation en direct, et les plans à vie incluent une formation personnalisée et une assistance à la migration."
+        },
+        "support": {
+          "question": "Quel type de support proposez-vous ?",
+          "answer": "Les plans Basic incluent un support par email, les plans Professionnel et Premium incluent un support prioritaire, et les plans à vie incluent une gestion de compte dédiée avec un accès direct à notre équipe de développement."
+        }
+      }
+    },
+    "cta": {
+      "title": "Prêt à Commencer ?",
+      "description": "Choisissez votre plan aujourd'hui et transformez votre institution éducative avec la plateforme de gestion complète de Scolink.",
+      "startTrial": "Commencer l'Essai Gratuit",
+      "contactSales": "Contacter l'Équipe Commerciale",
+      "loginUrl": "https://app.scolink.ink/login"
+    },
+  "terms": {
+    "title": "Conditions",
+    "subtitle": "d'utilisation",
+    "description": "Veuillez lire attentivement ces conditions d'utilisation avant d'utiliser la plateforme de gestion éducative de Scolink.",
+    "lastUpdated": "Dernière mise à jour",
+    "sections": {
+      "agreement": {
+        "title": "1. Accord sur les Conditions",
+        "content1": "Ces Conditions d'utilisation (\"Conditions\") constituent un accord juridiquement contraignant entre vous (\"Utilisateur\", \"vous\" ou \"votre\") et Scolink (\"nous\", \"notre\" ou \"nos\") régissant votre accès et votre utilisation de notre plateforme de gestion éducative, incluant tous les sites web, applications mobiles et services connexes (collectivement, le \"Service\").",
+        "content2": "En accédant, vous inscrivant ou utilisant le Service, vous reconnaissez avoir lu, compris et accepté d'être lié par ces Conditions. Si vous n'acceptez pas ces Conditions, vous ne devez pas accéder ou utiliser le Service.",
+        "content3": "Ces Conditions s'appliquent à tous les utilisateurs du Service, incluant les institutions éducatives, administrateurs, enseignants, membres du personnel, étudiants et parents qui peuvent accéder au Service via des comptes institutionnels."
+      },
+      "service": {
+        "title": "2. Description du Service",
+        "description": "Scolink est une plateforme complète de gestion éducative basée sur le cloud conçue pour rationaliser les opérations des institutions éducatives. Notre Service fournit :",
+        "features": {
+          "student": "Gestion des Informations Étudiantes : Gestion complète des profils étudiants, suivi des inscriptions et dossiers académiques",
+          "financial": "Gestion Financière : Traitement des paiements, collecte des frais, facturation et rapports financiers",
+          "academic": "Gestion Académique : Planification des cours, suivi des présences, gestion des notes et planification des programmes",
+          "communication": "Outils de Communication : Messagerie interne, notifications aux parents et systèmes d'annonces",
+          "analytics": "Analyses et Rapports : Tableaux de bord complets, analyses de performance et rapports personnalisés"
+        }
+      },
+      "accounts": {
+        "title": "3. Comptes Utilisateurs et Responsabilités",
+        "content1": "Pour accéder à certaines fonctionnalités du Service, vous devez créer un compte. Lors de votre inscription, vous acceptez de :",
+        "requirements": {
+          "accurate": "Fournir des informations exactes, actuelles et complètes sur vous-même et votre institution",
+          "secure": "Maintenir la sécurité de votre mot de passe et des identifiants de votre compte",
+          "responsible": "Être responsable de toutes les activités qui se produisent sous votre compte",
+          "notify": "Nous notifier immédiatement de toute utilisation non autorisée de votre compte"
+        },
+        "content2": "Les administrateurs institutionnels sont responsables de la gestion de l'accès des utilisateurs au sein de leur organisation et de garantir le respect de ces Conditions par tous les utilisateurs de leur institution."
+      },
+      "dataPrivacy": {
+        "title": "4. Confidentialité et Protection des Données",
+        "content1": "Nous nous engageons à protéger votre vie privée et les informations personnelles des étudiants, du personnel et autres utilisateurs. Nos pratiques de traitement des données sont conformes à :",
+        "compliance": {
+          "gdpr": "Règlement Général sur la Protection des Données (RGPD) pour les utilisateurs dans l'Union Européenne",
+          "ferpa": "Family Educational Rights and Privacy Act (FERPA) pour les institutions éducatives aux États-Unis",
+          "local": "Lois et réglementations locales sur la protection des données dans votre juridiction"
+        },
+        "content2": "Nous collectons, traitons et stockons les informations personnelles uniquement si nécessaire pour fournir le Service et comme permis par les lois applicables. Toutes les données sont chiffrées en transit et au repos."
+      },
+      "payment": {
+        "title": "5. Conditions de Paiement et Facturation",
+        "content1": "Le paiement pour le Service est requis pour certains plans et fonctionnalités. En vous abonnant à un plan payant, vous acceptez de :",
+        "terms": {
+          "payment": "Payer tous les frais associés à votre plan sélectionné",
+          "billing": "Fournir des informations de facturation exactes",
+          "autoRenewal": "Permettre le renouvellement automatique de votre abonnement sauf annulation",
+          "changes": "Accepter que les prix puissent changer avec un préavis de 30 jours"
+        },
+        "content2": "Tous les frais sont non remboursables sauf indication expresse dans ces Conditions ou requis par la loi applicable."
+      },
+      "availability": {
+        "title": "6. Disponibilité du Service et Support",
+        "content1": "Nous nous efforçons de fournir une disponibilité continue du Service, mais nous ne garantissons pas un accès ininterrompu. La maintenance du service, les mises à jour ou des circonstances imprévues peuvent causer des interruptions temporaires.",
+        "support": {
+          "basic": "Les utilisateurs du plan Basic reçoivent un support par email pendant les heures ouvrables",
+          "professional": "Les utilisateurs du plan Professionnel reçoivent un support prioritaire par email et chat",
+          "premium": "Les utilisateurs du plan Premium reçoivent une gestion de compte dédiée",
+          "lifetime": "Les utilisateurs du plan Lifetime reçoivent un support prioritaire et un accès direct à l'équipe de développement"
+        }
+      },
+      "intellectual": {
+        "title": "7. Droits de Propriété Intellectuelle",
+        "content1": "Le Service et tout le contenu, fonctionnalités et fonctionnalités connexes sont la propriété de Scolink et sont protégés par les lois sur le droit d'auteur, les marques et autres droits de propriété intellectuelle.",
+        "content2": "Vous ne pouvez pas reproduire, distribuer, modifier ou créer des œuvres dérivées de notre Service sans autorisation écrite explicite.",
+        "content3": "Le contenu généré par les utilisateurs téléchargé sur le Service reste la propriété des utilisateurs ou institutions respectifs, sous réserve de nos droits d'utilisation des données comme indiqué dans ces Conditions."
+      },
+      "dataProtection": {
+        "title": "8. Protection des Données et Confidentialité (FERPA, RGPD)",
+        "ferpa": {
+          "title": "Conformité FERPA :",
+          "content": "Pour les institutions éducatives américaines, nous nous conformons aux exigences FERPA pour la protection des données des étudiants et les droits d'accès des parents."
+        },
+        "gdpr": {
+          "title": "Conformité RGPD :",
+          "content": "Pour les utilisateurs dans l'Union Européenne, nous nous conformons aux exigences RGPD incluant les droits des personnes concernées, le traitement licite et les principes de minimisation des données."
+        },
+        "general": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour assurer la sécurité des données et la conformité aux lois applicables sur la confidentialité."
+      },
+      "liability": {
+        "title": "9. Limitation de Responsabilité",
+        "content1": "Dans la mesure maximale permise par la loi applicable, Scolink ne sera pas responsable des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs découlant de votre utilisation du Service.",
+        "content2": "Notre responsabilité totale pour toute réclamation découlant de ces Conditions ou du Service ne dépassera pas le montant payé par vous pour le Service dans les 12 mois précédant la réclamation."
+      },
+      "indemnification": {
+        "title": "10. Indemnisation",
+        "content": "Vous acceptez d'indemniser et de dégager Scolink de toute responsabilité concernant les réclamations, dommages, pertes ou dépenses découlant de votre violation de ces Conditions, mauvaise utilisation du Service ou violation de toute loi ou réglementation applicable."
+      },
+      "termination": {
+        "title": "11. Résiliation du Compte",
+        "content1": "Chaque partie peut résilier cet accord à tout moment. Lors de la résiliation :",
+        "actions": {
+          "immediate": "Votre accès au Service sera immédiatement terminé",
+          "data": "Nous conserverons vos données pendant une période raisonnable comme requis pour la conformité légale",
+          "noRefund": "Aucun remboursement ne sera fourni pour les périodes prépayées",
+          "export": "Vous pouvez demander l'exportation des données pendant la période de résiliation"
+        }
+      },
+      "governing": {
+        "title": "12. Loi Applicable et Résolution des Litiges",
+        "content": "Ces Conditions seront régies et interprétées conformément aux lois de [Juridiction]. Tout litige découlant de ces Conditions sera résolu par arbitrage obligatoire à [Lieu]."
+      },
+      "changes": {
+        "title": "13. Modifications des Conditions",
+        "content": "Nous nous réservons le droit de modifier ces Conditions à tout moment. Les changements importants seront communiqués par email ou via le Service avec au moins 30 jours de préavis."
+      },
+      "severability": {
+        "title": "14. Séparabilité",
+        "content": "Si une disposition de ces Conditions est jugée inapplicable, les autres dispositions resteront pleinement en vigueur."
+      },
+      "entire": {
+        "title": "15. Accord Complet",
+        "content": "Ces Conditions constituent l'accord complet entre vous et Scolink concernant l'utilisation du Service et remplacent tous les accords antérieurs."
+      },
+      "waiver": {
+        "title": "16. Renonciation",
+        "content": "Notre incapacité à faire respecter une disposition de ces Conditions ne constituera pas une renonciation à cette disposition ou à toute autre disposition."
+      },
+      "contact": {
+        "title": "17. Informations de Contact",
+        "content": "Pour toute question concernant ces Conditions, veuillez nous contacter à :",
+        "email": "legal@scolink.com",
+        "phone": "+33 1 23 45 67 89"
+      }
+    }
+  }
+  }
+}

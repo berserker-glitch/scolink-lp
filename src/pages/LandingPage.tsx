@@ -1,18 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import PixelBlast from "@/components/ui/PixelBlast";
-import { 
-  Users, 
-  Calendar, 
-  CreditCard, 
-  GraduationCap, 
-  BarChart3, 
-  Shield, 
-  Clock, 
-  MapPin, 
-  CheckCircle, 
+import FloatingHeader from "@/components/FloatingHeader";
+import { Footer } from "@/components/ui/footer-section";
+import { ContainerScroll, CardSticky } from "@/components/ui/cards-stack";
+// Import images
+import dashboardImage from "../images/dashboard.png";
+import calendarImage from "../images/calendaar and attendace page.png";
+import studentImage from "../images/student page.png";
+import subjectGroupsImage from "../images/subject groups page.png";
+
+import {
+  Users,
+  Calendar,
+  CreditCard,
+  GraduationCap,
+  BarChart3,
+  Shield,
+  Clock,
+  MapPin,
+  CheckCircle,
   ArrowRight,
   School,
   BookOpen,
@@ -20,105 +30,125 @@ import {
   Monitor,
   Smartphone,
   Globe,
-  Database
+  Database,
+  X
 } from "lucide-react";
 
 const LandingPage = () => {
+  const { t } = useTranslation();
+
+  // Scroll to top when component mounts and handle hash cleanup
+  useEffect(() => {
+    // Remove any hash from URL
+    if (window.location.hash) {
+      window.history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
+    // Scroll to top
+    window.scrollTo(0, 0);
+  }, []);
+
   const features = [
     {
       icon: <Users className="h-6 w-6" />,
-      title: "Student Management",
-      description: "Complete student profiles with enrollment tracking, academic history, and progress monitoring in one centralized system."
-    },
-    {
-      icon: <UserCheck className="h-6 w-6" />,
-      title: "Staff Administration", 
-      description: "Manage teachers, administrators, and support staff with role-based permissions and performance tracking."
-    },
-    {
-      icon: <Calendar className="h-6 w-6" />,
-      title: "Intelligent Scheduling",
-      description: "AI-powered timetable generation with automatic conflict resolution and resource optimization."
+      title: t('features.items.studentManagement.title'),
+      description: t('features.items.studentManagement.description')
     },
     {
       icon: <CreditCard className="h-6 w-6" />,
-      title: "Financial Management",
-      description: "Automated billing, payment processing, fee tracking, and comprehensive financial reporting."
+      title: t('features.items.paymentTracking.title'),
+      description: t('features.items.paymentTracking.description')
+    },
+    {
+      icon: <BookOpen className="h-6 w-6" />,
+      title: t('features.items.subjectManagement.title'),
+      description: t('features.items.subjectManagement.description')
+    },
+    {
+      icon: <UserCheck className="h-6 w-6" />,
+      title: t('features.items.staffManagement.title'),
+      description: t('features.items.staffManagement.description')
+    },
+    {
+      icon: <Calendar className="h-6 w-6" />,
+      title: t('features.items.scheduling.title'),
+      description: t('features.items.scheduling.description')
     },
     {
       icon: <BarChart3 className="h-6 w-6" />,
-      title: "Advanced Analytics",
-      description: "Real-time dashboards with student performance metrics, attendance analytics, and operational insights."
-    },
-    {
-      icon: <MapPin className="h-6 w-6" />,
-      title: "Multi-Location Management",
-      description: "Centrally manage multiple educational centers with location-specific settings and unified reporting."
+      title: t('features.items.analytics.title'),
+      description: t('features.items.analytics.description')
     }
   ];
 
   const appPreviews = [
     {
-      title: "Student Dashboard",
-      description: "Intuitive student management interface with enrollment, grades, and communication tools.",
-      placeholder: "Dashboard Preview - Student profiles, quick actions, recent activity",
-      icon: <Users className="h-5 w-5" />
-    },
-    {
-      title: "Class Scheduling System", 
-      description: "Visual timetable builder with drag-and-drop functionality and conflict detection.",
-      placeholder: "Scheduling Interface - Calendar view, class assignments, room management",
-      icon: <Calendar className="h-5 w-5" />
-    },
-    {
-      title: "Analytics & Reporting",
-      description: "Comprehensive analytics dashboard with performance metrics and financial insights.",
-      placeholder: "Analytics Dashboard - Charts, KPIs, trend analysis, export options",
+      id: "dashboard-overview",
+      title: t('features.items.analytics.title'),
+      description: t('features.items.analytics.description'),
+      image: dashboardImage,
       icon: <BarChart3 className="h-5 w-5" />
     },
     {
-      title: "Mobile Application",
-      description: "Native mobile apps for iOS and Android with offline capabilities.",
-      placeholder: "Mobile App Screens - Student portal, parent dashboard, teacher tools",
-      icon: <Smartphone className="h-5 w-5" />
+      id: "schedule-attendance",
+      title: t('features.items.scheduling.title'),
+      description: t('features.items.scheduling.description'),
+      image: calendarImage,
+      icon: <Calendar className="h-5 w-5" />
+    },
+    {
+      id: "student-management",
+      title: t('features.items.studentManagement.title'),
+      description: t('features.items.studentManagement.description'),
+      image: studentImage,
+      icon: <Users className="h-5 w-5" />
+    },
+    {
+      id: "payment-monitoring",
+      title: t('features.items.paymentTracking.title'),
+      description: t('features.items.paymentTracking.description'),
+      image: subjectGroupsImage,
+      icon: <CreditCard className="h-5 w-5" />
     }
   ];
 
   const capabilities = [
     {
-      stat: "50,000+",
-      label: "Students Managed",
-      description: "Actively managing student records across our platform"
+      stat: t('capabilities.items.students.stat'),
+      label: t('capabilities.items.students.label'),
+      description: t('capabilities.items.students.description')
     },
     {
-      stat: "1,200+", 
-      label: "Educational Centers",
-      description: "Schools and institutions using Scolink worldwide"
+      stat: t('capabilities.items.centers.stat'),
+      label: t('capabilities.items.centers.label'),
+      description: t('capabilities.items.centers.description')
     },
     {
-      stat: "99.9%",
-      label: "System Uptime",
-      description: "Reliable platform with enterprise-grade infrastructure"
+      stat: t('capabilities.items.uptime.stat'),
+      label: t('capabilities.items.uptime.label'),
+      description: t('capabilities.items.uptime.description')
     },
     {
-      stat: "24/7",
-      label: "Support Available", 
-      description: "Round-the-clock technical support and assistance"
+      stat: t('capabilities.items.support.stat'),
+      label: t('capabilities.items.support.label'),
+      description: t('capabilities.items.support.description')
     }
   ];
 
   return (
     <div className="min-h-screen">
+      {/* Floating Header */}
+      <FloatingHeader />
+      
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Animation */}
         <div className="absolute inset-0 z-0">
           <PixelBlast 
             variant="circle"
-            pixelSize={4}
+            pixelSize={3}
             color="#8B5CF6"
-            patternScale={2.5}
-            patternDensity={0.8}
+            patternScale={15}
+            patternDensity={0.73}
             enableRipples={true}
             rippleIntensityScale={0.8}
             speed={0.3}
@@ -129,106 +159,70 @@ const LandingPage = () => {
         
         {/* Hero Content */}
         <div className="relative z-10 container mx-auto px-4 text-center">
-          <div className="max-w-4xl mx-auto animate-fade-up">
-            <Badge variant="outline" className="mb-4 bg-primary/10 text-primary border-primary/20">
-              <School className="h-4 w-4 mr-2" />
-              Complete Educational Management Platform
+          <div className="max-w-5xl mx-auto animate-fade-up">
+            <Badge variant="outline" className="mb-6 bg-white/20 text-black border-black/30 backdrop-blur-sm px-6 py-2 text-base font-medium">
+              <School className="h-5 w-5 mr-2" />
+              {t('hero.badge')}
             </Badge>
-            
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent leading-tight">
-              Transform Your Educational Center
+
+            <h1 className="text-6xl md:text-8xl font-black mb-8 text-black leading-tight tracking-tight">
+              {t('hero.title')}
+              <span className="block bg-gradient-to-r from-primary via-purple-600 to-primary-glow bg-clip-text text-transparent">
+                {t('hero.subtitle')}
+              </span>
             </h1>
-            
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Comprehensive management system for modern educational institutions. Streamline operations, enhance learning experiences, and drive institutional success with our all-in-one platform.
+
+            <p className="text-2xl md:text-3xl text-black/80 mb-10 max-w-4xl mx-auto font-medium leading-relaxed">
+              {t('hero.description')}
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg hover-lift">
-                Start Free Trial
-                <ArrowRight className="ml-2 h-5 w-5" />
+            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
+              <Button
+                size="lg"
+                className="bg-black hover:bg-black/90 text-white px-10 py-7 text-xl font-semibold hover-lift shadow-2xl border-2 border-black"
+                onClick={() => window.location.href = t('nav.loginUrl', 'https://app.scolink.ink/login')}
+              >
+                {t('hero.cta.primary')}
+                <ArrowRight className="ml-3 h-6 w-6" />
               </Button>
-              <Button variant="outline" size="lg" className="px-8 py-6 text-lg hover-scale">
-                Schedule Demo
+              <Button
+                variant="outline"
+                size="lg"
+                className="px-10 py-7 text-xl font-semibold hover-scale border-2 border-black text-black hover:bg-black hover:text-white transition-all duration-300"
+                onClick={() => window.location.href = t('nav.loginUrl', 'https://app.scolink.ink/login')}
+              >
+                {t('hero.cta.secondary')}
               </Button>
             </div>
             
-            <div className="mt-12 flex flex-wrap justify-center items-center gap-8 text-sm text-muted-foreground">
-              <div className="flex items-center gap-2">
-                <CheckCircle className="h-4 w-4 text-success" />
-                No setup fees
+            <div className="flex flex-wrap justify-center items-center gap-12 text-base font-medium text-black/70">
+              <div className="flex items-center gap-3">
+                <CheckCircle className="h-5 w-5 text-green-600" />
+                {t('hero.features.noSetup')}
               </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle className="h-4 w-4 text-success" />
-                30-day free trial
+              <div className="flex items-center gap-3">
+                <CheckCircle className="h-5 w-5 text-green-600" />
+                {t('hero.features.freeTrial')}
               </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle className="h-4 w-4 text-success" />
-                Enterprise support
+              <div className="flex items-center gap-3">
+                <CheckCircle className="h-5 w-5 text-green-600" />
+                {t('hero.features.support')}
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Platform Overview */}
-      <section className="py-24 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16 animate-fade-up">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              See Scolink in 
-              <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent"> Action</span>
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Explore our intuitive interface designed for educational excellence
-            </p>
-          </div>
-          
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {appPreviews.map((preview, index) => (
-              <div key={index} className={`animate-fade-up ${index % 2 === 0 ? 'lg:order-1' : 'lg:order-2'}`} style={{ animationDelay: `${index * 0.1}s` }}>
-                <Card className="hover-lift bg-gradient-card border-0 shadow-educational">
-                  <CardHeader>
-                    <div className="flex items-center gap-3 mb-2">
-                      <div className="bg-primary/10 rounded-lg p-2">
-                        <div className="text-primary">
-                          {preview.icon}
-                        </div>
-                      </div>
-                      <CardTitle className="text-xl">{preview.title}</CardTitle>
-                    </div>
-                  </CardHeader>
-                  <CardContent>
-                    <CardDescription className="text-base leading-relaxed mb-4">
-                      {preview.description}
-                    </CardDescription>
-                    
-                    {/* Image Placeholder */}
-                    <div className="bg-muted/50 border-2 border-dashed border-muted-foreground/20 rounded-lg aspect-video flex items-center justify-center p-8">
-                      <div className="text-center text-muted-foreground">
-                        <Monitor className="h-12 w-12 mx-auto mb-3 opacity-50" />
-                        <p className="text-sm font-medium mb-2">App Screenshot Placeholder</p>
-                        <p className="text-xs opacity-70">{preview.placeholder}</p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Features Section */}
-      <section className="py-24">
+      <section id="features" className="py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-up">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Complete Educational 
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"> Management Suite</span>
+              {t('features.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Everything you need to run a modern educational institution efficiently
+              {t('features.description')}
             </p>
           </div>
           
@@ -255,15 +249,14 @@ const LandingPage = () => {
       </section>
 
       {/* Platform Capabilities */}
-      <section className="py-24 bg-muted/30">
+      <section id="capabilities" className="py-24 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-up">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Trusted Platform 
-              <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Statistics</span>
+              {t('capabilities.title')}
             </h2>
             <p className="text-xl text-muted-foreground">
-              Join the growing community of educational institutions using Scolink
+              {t('capabilities.description')}
             </p>
           </div>
           
@@ -282,15 +275,14 @@ const LandingPage = () => {
       </section>
 
       {/* Technology Stack */}
-      <section className="py-24">
+      <section id="technology" className="py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-up">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Built with 
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Modern Technology</span>
+              {t('technology.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Enterprise-grade infrastructure ensuring reliability, security, and scalability
+              {t('technology.description')}
             </p>
           </div>
           
@@ -300,11 +292,11 @@ const LandingPage = () => {
                 <div className="bg-primary/10 rounded-lg p-4 w-fit mx-auto mb-4">
                   <Shield className="h-8 w-8 text-primary" />
                 </div>
-                <CardTitle>Security First</CardTitle>
+                <CardTitle>{t('technology.items.security.title')}</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  Bank-level encryption, GDPR compliance, and regular security audits to protect your data.
+                  {t('technology.items.security.description')}
                 </CardDescription>
               </CardContent>
             </Card>
@@ -314,11 +306,11 @@ const LandingPage = () => {
                 <div className="bg-primary/10 rounded-lg p-4 w-fit mx-auto mb-4">
                   <Database className="h-8 w-8 text-primary" />
                 </div>
-                <CardTitle>Scalable Infrastructure</CardTitle>
+                <CardTitle>{t('technology.items.infrastructure.title')}</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  Cloud-based architecture that grows with your institution, handling any number of students.
+                  {t('technology.items.infrastructure.description')}
                 </CardDescription>
               </CardContent>
             </Card>
@@ -328,11 +320,11 @@ const LandingPage = () => {
                 <div className="bg-primary/10 rounded-lg p-4 w-fit mx-auto mb-4">
                   <Globe className="h-8 w-8 text-primary" />
                 </div>
-                <CardTitle>Global Accessibility</CardTitle>
+                <CardTitle>{t('technology.items.accessibility.title')}</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  Multi-language support, mobile responsiveness, and 24/7 accessibility from anywhere.
+                  {t('technology.items.accessibility.description')}
                 </CardDescription>
               </CardContent>
             </Card>
@@ -340,23 +332,250 @@ const LandingPage = () => {
         </div>
       </section>
 
+      {/* Pricing Section */}
+      <section id="pricing" className="py-24 bg-gradient-to-br from-slate-50 to-blue-50/30">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              Simple, Transparent
+              <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent"> Pricing</span>
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Choose the perfect plan for your educational institution. All plans include our core features with different levels of support and customization.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-4 gap-6 max-w-7xl mx-auto">
+            {/* Basic Plan */}
+            <Card className="hover-lift bg-gradient-card border-0 shadow-educational relative">
+              <CardHeader className="text-center pb-8">
+                <CardTitle className="text-2xl font-bold">Basic</CardTitle>
+                <div className="text-5xl font-black text-primary mt-4">
+                  $0
+                  <span className="text-lg font-normal text-muted-foreground">/month</span>
+                </div>
+                <CardDescription className="mt-4">
+                  Perfect for small educational centers getting started
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="space-y-3">
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                    <span className="text-sm">Up to 100 students</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                    <span className="text-sm">Student management</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                    <span className="text-sm">Basic payment tracking</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                    <span className="text-sm">Basic group & scheduling</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <X className="h-5 w-5 text-muted-foreground flex-shrink-0" />
+                    <span className="text-sm text-muted-foreground">No attendance taking</span>
+                  </div>
+                </div>
+                <Button
+                  className="w-full mt-6 bg-primary hover:bg-primary/90"
+                  onClick={() => window.location.href = t('nav.loginUrl', 'https://app.scolink.ink/login')}
+                >
+                  {t('pricing.plans.basic.buttonText', 'Start Free')}
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Professional Plan - Most Popular */}
+            <Card className="hover-lift bg-gradient-primary border-0 shadow-educational relative">
+              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                <Badge className="bg-yellow-500 text-black px-4 py-1 text-sm font-semibold">
+                  Most Popular
+                </Badge>
+              </div>
+              <CardHeader className="text-center pb-8">
+                <CardTitle className="text-2xl font-bold text-white">Professional</CardTitle>
+                <div className="text-5xl font-black text-white mt-4">
+                  $25
+                  <span className="text-lg font-normal text-white/80">/month</span>
+                </div>
+                <CardDescription className="mt-4 text-white/90">
+                  Ideal for growing educational institutions
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="space-y-3">
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-white flex-shrink-0" />
+                    <span className="text-sm text-white">Up to 1,500 students</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-white flex-shrink-0" />
+                    <span className="text-sm text-white">Student management</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-white flex-shrink-0" />
+                    <span className="text-sm text-white">Fluid payment tracking</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-white flex-shrink-0" />
+                    <span className="text-sm text-white">Full group scheduling</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-white flex-shrink-0" />
+                    <span className="text-sm text-white">Staff accounts</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-white flex-shrink-0" />
+                    <span className="text-sm text-white">Attendance taking</span>
+                  </div>
+                </div>
+                <Button
+                  className="w-full mt-6 bg-white text-primary hover:bg-white/90"
+                  onClick={() => window.location.href = t('nav.loginUrl', 'https://app.scolink.ink/login')}
+                >
+                  {t('pricing.plans.professional.buttonText', 'Start Professional Plan')}
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Premium Plan */}
+            <Card className="hover-lift bg-gradient-card border-0 shadow-educational relative">
+              <CardHeader className="text-center pb-8">
+                <CardTitle className="text-2xl font-bold">Premium</CardTitle>
+                <div className="text-5xl font-black text-primary mt-4">
+                  $50
+                  <span className="text-lg font-normal text-muted-foreground">/month</span>
+                </div>
+                <CardDescription className="mt-4">
+                  Complete solution for large educational institutions
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="space-y-3">
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                    <span className="text-sm">Unlimited subjects & students</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                    <span className="text-sm">Student management</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                    <span className="text-sm">Everything fluid</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                    <span className="text-sm">Teacher accounts</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                    <span className="text-sm">Student accounts</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                    <span className="text-sm">Staff accounts</span>
+                  </div>
+                </div>
+                <Button className="w-full mt-6 bg-primary hover:bg-primary/90">
+                  Start Premium Plan
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Lifetime Plan */}
+            <Card className="hover-lift bg-gradient-card border-0 shadow-educational relative">
+              <CardHeader className="text-center pb-8">
+                <CardTitle className="text-2xl font-bold">Lifetime</CardTitle>
+                <div className="text-5xl font-black text-primary mt-4">
+                  $500
+                  <span className="text-lg font-normal text-muted-foreground block">one-time</span>
+                </div>
+                <CardDescription className="mt-4">
+                  Complete lifetime access to all features
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="space-y-3">
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                    <span className="text-sm">Everything from Premium</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                    <span className="text-sm">Lifetime access</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                    <span className="text-sm">Access to new features</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                    <span className="text-sm">Free updates forever</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                    <span className="text-sm">Dedicated support</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
+                    <span className="text-sm">Early access to features</span>
+                  </div>
+                </div>
+                <Button className="w-full mt-6 bg-primary hover:bg-primary/90">
+                  Get Lifetime Access
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* FAQ Section */}
+          <div className="mt-20 text-center">
+            <h3 className="text-3xl font-bold mb-8">Frequently Asked Questions</h3>
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              <div className="text-left">
+                <h4 className="font-semibold mb-2">Can I change plans anytime?</h4>
+                <p className="text-muted-foreground text-sm">Yes, you can upgrade or downgrade your plan at any time. Changes take effect immediately.</p>
+              </div>
+              <div className="text-left">
+                <h4 className="font-semibold mb-2">Is there a setup fee?</h4>
+                <p className="text-muted-foreground text-sm">No setup fees for any of our plans. You only pay the monthly subscription.</p>
+              </div>
+              <div className="text-left">
+                <h4 className="font-semibold mb-2">Do you offer refunds?</h4>
+                <p className="text-muted-foreground text-sm">We offer a 30-day money-back guarantee on all plans.</p>
+              </div>
+              <div className="text-left">
+                <h4 className="font-semibold mb-2">What payment methods do you accept?</h4>
+                <p className="text-muted-foreground text-sm">We accept all major credit cards, PayPal, and bank transfers.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section className="py-24 bg-gradient-primary relative overflow-hidden">
+      <section id="cta" className="py-24 bg-gradient-primary relative overflow-hidden">
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-3xl mx-auto animate-fade-up">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Ready to Revolutionize Your Educational Management?
+              {t('cta.title')}
             </h2>
             <p className="text-xl text-white/90 mb-8">
-              Join thousands of educational institutions that have transformed their operations with Scolink. Start your free trial today.
+              {t('cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" className="px-8 py-6 text-lg hover-lift">
-                Start 30-Day Free Trial
+                {t('cta.buttons.trial')}
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button size="lg" variant="outline" className="px-8 py-6 text-lg text-white border-white hover:bg-white hover:text-primary transition-educational">
-                Contact Sales Team
+              <Button size="lg" className="px-8 py-6 text-lg bg-purple-600 hover:bg-purple-500 text-white border-0 transition-educational">
+                {t('cta.buttons.sales')}
               </Button>
             </div>
           </div>
@@ -368,27 +587,7 @@ const LandingPage = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 border-t">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="flex items-center gap-2">
-              <div className="bg-gradient-primary rounded-lg p-2">
-                <GraduationCap className="h-6 w-6 text-white" />
-              </div>
-              <span className="text-xl font-bold">Scolink</span>
-            </div>
-            <div className="flex items-center gap-6 text-sm text-muted-foreground">
-              <a href="#" className="hover:text-primary transition-educational">Privacy Policy</a>
-              <a href="#" className="hover:text-primary transition-educational">Terms of Service</a>
-              <a href="#" className="hover:text-primary transition-educational">Support Center</a>
-              <a href="#" className="hover:text-primary transition-educational">API Documentation</a>
-            </div>
-            <p className="text-sm text-muted-foreground">
-              © 2024 Scolink. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
