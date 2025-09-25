@@ -1,0 +1,30 @@
+{
+  "home": {
+    "title": "Scolink - Système de Gestion Éducative",
+    "description": "Système de gestion complet pour les établissements éducatifs. Gérez les étudiants, suivez les paiements, surveillez les performances et rationalisez les opérations avec des analyses en temps réel."
+  },
+  "features": {
+    "title": "Fonctionnalités - Scolink",
+    "description": "Découvrez les puissantes fonctionnalités du système de gestion éducative Scolink. Gestion des étudiants, planification, analyses et plus."
+  },
+  "pricing": {
+    "title": "Plans Tarifaires - Scolink",
+    "description": "Choisissez le plan parfait pour votre établissement éducatif. Options tarifaires flexibles conçues pour évoluer avec vos besoins."
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité - Scolink",
+    "description": "Découvrez comment Scolink protège et gère vos informations personnelles et la confidentialité des données."
+  },
+  "terms": {
+    "title": "Conditions d'Utilisation - Scolink",
+    "description": "Lisez nos conditions d'utilisation et comprenez vos droits et responsabilités lors de l'utilisation de Scolink."
+  },
+  "refund": {
+    "title": "Politique de Remboursement - Scolink",
+    "description": "Notre politique claire de non-remboursement pour tous les paiements d'abonnement et services."
+  },
+  "notfound": {
+    "title": "Page Non Trouvée - Scolink",
+    "description": "La page que vous recherchez n'existe pas. Retournez à notre page d'accueil pour continuer à explorer."
+  }
+}

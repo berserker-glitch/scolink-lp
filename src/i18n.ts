@@ -8,19 +8,25 @@ import ar from './locales/ar.json';
 import footerPagesEn from './locales/footer-pages-en.json';
 import footerPagesFr from './locales/footer-pages-fr.json';
 import footerPagesAr from './locales/footer-pages-ar.json';
+import titlesEn from './locales/titles/en.json';
+import titlesFr from './locales/titles/fr.json';
+import titlesAr from './locales/titles/ar.json';
 
 const resources = {
   en: {
     translation: en,
-    footerPages: footerPagesEn
+    footerPages: footerPagesEn,
+    titles: titlesEn
   },
   fr: {
     translation: fr,
-    footerPages: footerPagesFr
+    footerPages: footerPagesFr,
+    titles: titlesFr
   },
   ar: {
     translation: ar,
-    footerPages: footerPagesAr
+    footerPages: footerPagesAr,
+    titles: titlesAr
   }
 };
 

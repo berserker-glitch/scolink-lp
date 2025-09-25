@@ -1,0 +1,30 @@
+{
+  "home": {
+    "title": "Scolink - Educational Management System",
+    "description": "Complete management system for educational institutions. Manage students, track payments, monitor performance, and streamline operations with real-time analytics."
+  },
+  "features": {
+    "title": "Features - Scolink",
+    "description": "Discover powerful features of Scolink educational management system. Student management, scheduling, analytics and more."
+  },
+  "pricing": {
+    "title": "Pricing Plans - Scolink",
+    "description": "Choose the perfect plan for your educational institution. Flexible pricing options designed to scale with your needs."
+  },
+  "privacy": {
+    "title": "Privacy Policy - Scolink",
+    "description": "Learn how Scolink protects and manages your personal information and data privacy."
+  },
+  "terms": {
+    "title": "Terms of Service - Scolink",
+    "description": "Read our terms of service and understand your rights and responsibilities when using Scolink."
+  },
+  "refund": {
+    "title": "Refund Policy - Scolink",
+    "description": "Our clear no-refund policy for all subscription payments and services."
+  },
+  "notfound": {
+    "title": "Page Not Found - Scolink",
+    "description": "The page you're looking for doesn't exist. Return to our homepage to continue exploring."
+  }
+}

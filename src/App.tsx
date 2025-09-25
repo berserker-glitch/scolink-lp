@@ -21,24 +21,19 @@ const queryClient = new QueryClient();
 const SEOEnabledRoute = ({
   path,
   element,
-  titleKey,
-  descriptionKey,
-  keywordsKey
+  pageKey
 }: {
   path: string;
   element: React.ReactNode;
-  titleKey?: string;
-  descriptionKey?: string;
-  keywordsKey?: string;
+  pageKey?: string;
 }) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('titles');
 
   const getSEOMeta = () => {
-    if (titleKey && descriptionKey && keywordsKey) {
+    if (pageKey) {
       return {
-        title: t(titleKey),
-        description: t(descriptionKey),
-        keywords: t(keywordsKey)
+        title: t(`${pageKey}.title`),
+        description: t(`${pageKey}.description`)
       };
     }
     return {};
@@ -69,52 +64,38 @@ const App = () => {
                 <Route path="/" element={<SEOEnabledRoute
                   path="/"
                   element={<Index />}
-                  titleKey="seo.home.title"
-                  descriptionKey="seo.home.description"
-                  keywordsKey="seo.home.keywords"
+                  pageKey="home"
                 />} />
                 <Route path="/features" element={<SEOEnabledRoute
                   path="/features"
                   element={<Features />}
-                  titleKey="seo.features.title"
-                  descriptionKey="seo.features.description"
-                  keywordsKey="seo.features.keywords"
+                  pageKey="features"
                 />} />
                 <Route path="/pricing" element={<SEOEnabledRoute
                   path="/pricing"
                   element={<Pricing />}
-                  titleKey="seo.pricing.title"
-                  descriptionKey="seo.pricing.description"
-                  keywordsKey="seo.pricing.keywords"
+                  pageKey="pricing"
                 />} />
                 <Route path="/terms" element={<SEOEnabledRoute
                   path="/terms"
                   element={<TermsOfService />}
-                  titleKey="seo.terms.title"
-                  descriptionKey="seo.terms.description"
-                  keywordsKey="seo.terms.keywords"
+                  pageKey="terms"
                 />} />
                 <Route path="/privacy" element={<SEOEnabledRoute
                   path="/privacy"
                   element={<PrivacyPolicy />}
-                  titleKey="seo.privacy.title"
-                  descriptionKey="seo.privacy.description"
-                  keywordsKey="seo.privacy.keywords"
+                  pageKey="privacy"
                 />} />
                 <Route path="/refund" element={<SEOEnabledRoute
                   path="/refund"
                   element={<RefundPolicy />}
-                  titleKey="seo.refund.title"
-                  descriptionKey="seo.refund.description"
-                  keywordsKey="seo.refund.keywords"
+                  pageKey="refund"
                 />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<SEOEnabledRoute
                   path="*"
                   element={<NotFound />}
-                  titleKey="seo.404.title"
-                  descriptionKey="seo.404.description"
-                  keywordsKey="seo.404.keywords"
+                  pageKey="notfound"
                 />} />
             </Routes>
           </main>
