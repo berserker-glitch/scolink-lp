@@ -1,0 +1,139 @@
+{
+  "terms": {
+    "title": "Terms of Service",
+    "description": "Welcome to Scolink. Please read these terms carefully to understand your rights and responsibilities when using our educational management platform.",
+    "lastUpdated": "Last updated",
+    "sections": {
+      "welcome": {
+        "title": "Welcome to Scolink",
+        "content": "By accessing or using the Scolink platform, you agree to be bound by these Terms of Service. Scolink is a Moroccan company providing comprehensive educational management solutions to institutions across Morocco and beyond."
+      },
+      "service": {
+        "title": "1. Service Description",
+        "content": "Scolink provides a cloud-based educational management platform that includes: student information management, academic tracking and grading, attendance monitoring, scheduling and timetabling, communication tools for educators and parents, financial management and fee tracking, reporting and analytics, and multi-location support for educational networks."
+      },
+      "eligibility": {
+        "title": "2. Eligibility and Registration",
+        "content": "To use Scolink, you must be an authorized representative of an educational institution or have proper authorization to access the platform. You must provide accurate, complete, and current information during registration and maintain the security of your account credentials."
+      },
+      "accounts": {
+        "title": "3. User Accounts and Responsibilities",
+        "content": "Each user is responsible for maintaining the confidentiality of their login credentials and for all activities under their account. Institutions are responsible for managing user access and ensuring compliance with these terms by all users within their organization."
+      },
+      "usage": {
+        "title": "4. Acceptable Use Policy",
+        "content": "You agree to use Scolink lawfully and respectfully. Prohibited activities include: attempting to breach security or access unauthorized areas, interfering with the platform's operation or other users' access, using the service for any illegal or unauthorized purposes, sharing account credentials with unauthorized persons, and attempting to reverse engineer or copy the platform's functionality."
+      },
+      "payments": {
+        "title": "5. Payment Processing and Security",
+        "content": "All payment processing is handled by certified third-party payment providers using industry-standard encryption and security protocols. Scolink does not store complete credit card information on our servers. You are responsible for ensuring you have proper authorization to make payments on behalf of your institution."
+      },
+      "intellectual": {
+        "title": "6. Intellectual Property Rights",
+        "content": "Scolink retains all rights to the platform, including software, design, documentation, and trademarks. Your institution retains ownership of all data entered into the system. You grant Scolink a limited license to process your data solely for providing our services."
+      },
+      "availability": {
+        "title": "7. Service Availability and Maintenance",
+        "content": "We strive to maintain 99.9% uptime but cannot guarantee uninterrupted service. Scheduled maintenance will be announced in advance when possible. We are not liable for service interruptions due to circumstances beyond our control."
+      },
+      "modifications": {
+        "title": "8. Service Modifications and Updates",
+        "content": "Scolink reserves the right to modify, update, or discontinue features of the platform. We will provide reasonable notice for significant changes that may affect your use of the service. Continued use after modifications constitutes acceptance of the changes."
+      },
+      "termination": {
+        "title": "9. Account Termination and Data Export",
+        "content": "Either party may terminate the service agreement with appropriate notice. Upon termination, your access will cease immediately. You may request data export within 30 days of termination. Data will be retained according to legal requirements and our data retention policy."
+      },
+      "limitation": {
+        "title": "10. Limitation of Liability",
+        "content": "To the maximum extent permitted by Moroccan law, Scolink's liability is limited to the amount paid for services in the 12 months preceding any claim. We are not liable for indirect, consequential, or punitive damages arising from your use of the platform."
+      },
+      "law": {
+        "title": "11. Governing Law and Dispute Resolution",
+        "content": "These terms are governed by the laws of the Kingdom of Morocco. Any disputes will be resolved through the competent courts of Morocco. We encourage resolving disputes through direct communication before pursuing legal action."
+      },
+      "contact": {
+        "title": "12. Contact and Support",
+        "content": "For questions about these terms, technical support, or general inquiries, please contact us through our official support channels. We are committed to providing timely and helpful assistance to all our users."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "description": "This comprehensive privacy policy explains how Scolink, a Moroccan educational technology company, collects, uses, protects, and manages the personal information entrusted to us by educational institutions.",
+    "lastUpdated": "Last updated",
+    "sections": {
+      "welcome": {
+        "title": "Our Commitment to Privacy",
+        "content": "At Scolink, protecting the privacy and security of personal information is fundamental to our mission. As a Moroccan company serving educational institutions, we are committed to maintaining the highest standards of data protection and complying with applicable privacy laws and regulations."
+      },
+      "dataCollection": {
+        "title": "1. Information We Collect",
+        "content": "We collect information necessary to provide our educational management services, including: student personal information (names, contact details, academic records), staff and administrator information (names, roles, contact information), institutional data (school information, curriculum details, attendance records), usage data (login times, feature usage, system interactions), and technical data (IP addresses, browser information, device identifiers). All data collection is limited to what is necessary for service provision and institutional management."
+      },
+      "dataUse": {
+        "title": "2. How We Use Your Information",
+        "content": "We use collected information exclusively for legitimate educational purposes: providing core platform functionality (student management, scheduling, grading), generating reports and analytics for institutional decision-making, facilitating communication between educators, students, and parents, ensuring system security and preventing unauthorized access, providing technical support and troubleshooting, and improving our services based on usage patterns. We never use personal information for marketing to students or for commercial purposes unrelated to educational services."
+      },
+      "dataSharing": {
+        "title": "3. Information Sharing and Disclosure",
+        "content": "We maintain strict controls over data sharing. Information may only be shared in the following circumstances: with authorized school personnel as necessary for educational purposes, with third-party service providers who assist in platform operations (under strict data processing agreements), when required by Moroccan law or legal process, with your explicit consent for specific purposes, or in anonymized, aggregated form that cannot identify individuals. We never sell, rent, or trade personal information to third parties for their marketing purposes."
+      },
+      "dataSecurity": {
+        "title": "4. Data Security and Protection",
+        "content": "We implement comprehensive security measures to protect your information: encryption of data in transit and at rest using industry-standard protocols, secure server infrastructure with regular security updates and monitoring, access controls ensuring only authorized personnel can access specific data, regular security audits and vulnerability assessments, secure backup and disaster recovery procedures, and staff training on data protection and privacy best practices. We continuously monitor and update our security measures to address emerging threats."
+      },
+      "userRights": {
+        "title": "5. Your Privacy Rights",
+        "content": "Under Moroccan data protection laws and our privacy commitment, you have the right to: access your personal information and understand how it's being used, request corrections to inaccurate or incomplete information, request deletion of personal information in certain circumstances, object to certain types of data processing, receive a copy of your data in a portable format, and withdraw consent where processing is based on consent. Educational institutions can exercise these rights on behalf of their students and staff."
+      },
+      "retention": {
+        "title": "6. Data Retention and Deletion",
+        "content": "We retain personal information only as long as necessary for the purposes outlined in this policy: active student and staff records are maintained during the period of enrollment or employment, academic records may be retained longer as required by educational regulations, system logs and technical data are retained for security and troubleshooting purposes, and account information is deleted within a reasonable time after service termination. Upon request and where legally permissible, we will delete personal information and provide confirmation of deletion."
+      },
+      "international": {
+        "title": "7. International Data Transfers",
+        "content": "As a Moroccan company, we primarily process data within Morocco. If data needs to be transferred internationally for technical or operational reasons, we ensure appropriate safeguards are in place, including: adequate data protection agreements with service providers, compliance with applicable international data transfer regulations, and maintaining the same level of protection regardless of data location."
+      },
+      "updates": {
+        "title": "8. Policy Updates and Changes",
+        "content": "We may update this privacy policy to reflect changes in our practices, legal requirements, or service offerings. When we make significant changes, we will: notify institutional administrators via email or platform notifications, post the updated policy with clear indication of changes, provide a reasonable notice period before changes take effect, and maintain previous versions for reference. Continued use of our services after policy updates constitutes acceptance of the changes."
+      },
+      "contact": {
+        "title": "9. Contact Us About Privacy",
+        "content": "For questions about this privacy policy, to exercise your privacy rights, or to report privacy concerns, please contact us through our official support channels. We are committed to addressing privacy inquiries promptly and transparently. Our privacy team is available to assist educational institutions in understanding and managing their data protection obligations."
+      }
+    }
+  },
+  "refund": {
+    "title": "Refund Policy",
+    "description": "Scolink maintains a clear and transparent no-refund policy. All subscription payments are final and non-refundable.",
+    "lastUpdated": "Last updated",
+    "sections": {
+      "policy": {
+        "title": "Our No-Refund Policy",
+        "content": "All subscription payments to Scolink are final and non-refundable. This policy applies to all subscription plans including monthly, annual, and lifetime subscriptions. Once payment is processed, no refunds will be issued under any circumstances."
+      },
+      "reasoning": {
+        "title": "1. Why We Don't Offer Refunds",
+        "content": "As a cloud-based software service provider, we immediately allocate resources, server capacity, and technical infrastructure upon account activation. Our team invests time in onboarding, data migration assistance, and providing continuous service delivery from day one. These costs are incurred immediately and cannot be recovered."
+      },
+      "beforePurchase": {
+        "title": "2. Before Making Your Purchase",
+        "content": "We strongly encourage all potential customers to thoroughly evaluate our service before committing to a paid subscription. Take advantage of our free trial period, schedule a personalized demo with our team, review our comprehensive documentation and feature list, and contact our support team with any questions about functionality or compatibility with your institution's needs."
+      },
+      "cancellation": {
+        "title": "3. Subscription Management and Cancellation",
+        "content": "While we don't offer refunds, you have full control over your subscription. You may cancel your subscription at any time through your account dashboard or by contacting our support team. Cancellation takes effect at the end of your current billing period, and you'll continue to have access to all features until that date. No partial refunds are provided for unused time."
+      },
+      "alternatives": {
+        "title": "4. Alternative Solutions",
+        "content": "If you're experiencing issues with our service, we encourage you to contact our support team first. We offer comprehensive training resources, personalized onboarding assistance, technical support to resolve any issues, and guidance on maximizing the value of your subscription. Our goal is to ensure your success with Scolink."
+      },
+      "contact": {
+        "title": "5. Questions and Support",
+        "content": "If you have questions about this refund policy or need assistance with your subscription, please contact our support team before making a purchase decision. We're here to help you make an informed choice and ensure Scolink is the right fit for your educational institution."
+      }
+    }
+  }
+}

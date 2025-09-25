@@ -5,16 +5,22 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import en from './locales/en.json';
 import fr from './locales/fr.json';
 import ar from './locales/ar.json';
+import footerPagesEn from './locales/footer-pages-en.json';
+import footerPagesFr from './locales/footer-pages-fr.json';
+import footerPagesAr from './locales/footer-pages-ar.json';
 
 const resources = {
   en: {
-    translation: en
+    translation: en,
+    footerPages: footerPagesEn
   },
   fr: {
-    translation: fr
+    translation: fr,
+    footerPages: footerPagesFr
   },
   ar: {
-    translation: ar
+    translation: ar,
+    footerPages: footerPagesAr
   }
 };
 

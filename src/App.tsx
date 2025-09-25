@@ -11,6 +11,8 @@ import Index from "./pages/Index";
 import Features from "./pages/Features";
 import Pricing from "./pages/Pricing";
 import TermsOfService from "./pages/TermsOfService";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import RefundPolicy from "./pages/RefundPolicy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -91,6 +93,20 @@ const App = () => {
                   titleKey="seo.terms.title"
                   descriptionKey="seo.terms.description"
                   keywordsKey="seo.terms.keywords"
+                />} />
+                <Route path="/privacy" element={<SEOEnabledRoute
+                  path="/privacy"
+                  element={<PrivacyPolicy />}
+                  titleKey="seo.privacy.title"
+                  descriptionKey="seo.privacy.description"
+                  keywordsKey="seo.privacy.keywords"
+                />} />
+                <Route path="/refund" element={<SEOEnabledRoute
+                  path="/refund"
+                  element={<RefundPolicy />}
+                  titleKey="seo.refund.title"
+                  descriptionKey="seo.refund.description"
+                  keywordsKey="seo.refund.keywords"
                 />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<SEOEnabledRoute

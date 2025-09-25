@@ -28,12 +28,11 @@
       "contact": "Contact",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
+      "refund": "Refund Policy",
       "howtouse": "How to Use"
     },
     "contact": {
-      "email": "info@scolink.com",
-      "phone": "+1 (555) 123-4567",
-      "address": "New York, NY"
+      "email": "contact.scolink@gmail.com"
     },
     "social": {
       "facebook": "Facebook",
@@ -400,141 +399,20 @@
       "description": "Read Scolink's terms of service for our educational management platform. Learn about service usage, data privacy, and legal agreements.",
       "keywords": "terms of service, educational platform terms, scolink legal, school management terms"
     },
+    "privacy": {
+      "title": "Privacy Policy - Scolink Educational Platform",
+      "description": "Understand how Scolink protects data for Moroccan educational institutions using our platform.",
+      "keywords": "privacy policy, scolink privacy, Moroccan data protection"
+    },
+    "refund": {
+      "title": "Refund Policy - Scolink Educational Platform",
+      "description": "Review Scolink's non-refundable subscription policy and cancellation process.",
+      "keywords": "refund policy, scolink refunds, subscription policy"
+    },
     "404": {
       "title": "Page Not Found - Scolink School Management System",
       "description": "The page you're looking for doesn't exist. Return to Scolink's school management platform homepage.",
       "keywords": "404 error, page not found, scolink school management"
     }
-  },
-  "terms": {
-    "title": "Terms of",
-    "subtitle": "Service",
-    "description": "Please read these terms of service carefully before using Scolink's educational management platform.",
-    "lastUpdated": "Last updated",
-    "sections": {
-      "agreement": {
-        "title": "1. Agreement to Terms",
-        "content1": "These Terms of Service (\"Terms\") constitute a legally binding agreement between you (\"User\", \"you\", or \"your\") and Scolink (\"we\", \"us\", or \"our\") governing your access to and use of our educational management platform, including all related websites, mobile applications, and services (collectively, the \"Service\").",
-        "content2": "By accessing, registering for, or using the Service, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree to these Terms, you must not access or use the Service.",
-        "content3": "These Terms apply to all users of the Service, including educational institutions, administrators, teachers, staff members, students, and parents who may access the Service through institutional accounts."
-      },
-      "service": {
-        "title": "2. Service Description",
-        "description": "Scolink is a comprehensive cloud-based educational management platform designed to streamline operations for educational institutions. Our Service provides:",
-        "features": {
-          "student": "Student Information Management: Complete student profile management, enrollment tracking, and academic records",
-          "financial": "Financial Management: Payment processing, fee collection, invoicing, and financial reporting",
-          "academic": "Academic Management: Course scheduling, attendance tracking, grade management, and curriculum planning",
-          "communication": "Communication Tools: Internal messaging, parent notifications, and announcement systems",
-          "analytics": "Analytics & Reporting: Comprehensive dashboards, performance analytics, and custom reporting"
-        }
-      },
-      "accounts": {
-        "title": "3. User Accounts and Responsibilities",
-        "content1": "To access certain features of the Service, you must register for an account. When you register, you agree to:",
-        "requirements": {
-          "accurate": "Provide accurate, current, and complete information about yourself and your institution",
-          "secure": "Maintain the security of your password and account credentials",
-          "responsible": "Be responsible for all activities that occur under your account",
-          "notify": "Notify us immediately of any unauthorized use of your account"
-        },
-        "content2": "Institutional administrators are responsible for managing user access within their organization and ensuring compliance with these Terms by all users within their institution."
-      },
-      "dataPrivacy": {
-        "title": "4. Data Privacy and Protection",
-        "content1": "We are committed to protecting your privacy and the personal information of students, staff, and other users. Our data handling practices comply with:",
-        "compliance": {
-          "gdpr": "General Data Protection Regulation (GDPR) for users in the European Union",
-          "ferpa": "Family Educational Rights and Privacy Act (FERPA) for educational institutions in the United States",
-          "local": "Local data protection laws and regulations in your jurisdiction"
-        },
-        "content2": "We collect, process, and store personal information only as necessary to provide the Service and as permitted by applicable laws. All data is encrypted both in transit and at rest."
-      },
-      "payment": {
-        "title": "5. Payment Terms and Billing",
-        "content1": "Payment for the Service is required for certain plans and features. By subscribing to a paid plan, you agree to:",
-        "terms": {
-          "payment": "Pay all fees associated with your selected plan",
-          "billing": "Provide accurate billing information",
-          "autoRenewal": "Allow automatic renewal of your subscription unless cancelled",
-          "changes": "Accept that pricing may change with 30 days advance notice"
-        },
-        "content2": "All fees are non-refundable except as expressly stated in these Terms or as required by applicable law."
-      },
-      "availability": {
-        "title": "6. Service Availability and Support",
-        "content1": "We strive to provide continuous availability of the Service, but we do not guarantee uninterrupted access. Service maintenance, updates, or unforeseen circumstances may cause temporary interruptions.",
-        "support": {
-          "basic": "Basic plan users receive email support during business hours",
-          "professional": "Professional plan users receive priority email support and chat support",
-          "premium": "Premium plan users receive dedicated account management",
-          "lifetime": "Lifetime plan users receive priority support and direct access to development team"
-        }
-      },
-      "intellectual": {
-        "title": "7. Intellectual Property Rights",
-        "content1": "The Service and all related content, features, and functionality are owned by Scolink and are protected by copyright, trademark, and other intellectual property laws.",
-        "content2": "You may not reproduce, distribute, modify, or create derivative works of our Service without explicit written permission.",
-        "content3": "User-generated content uploaded to the Service remains the property of the respective users or institutions, subject to our data usage rights as outlined in these Terms."
-      },
-      "dataProtection": {
-        "title": "8. Data Protection and Privacy (FERPA, GDPR)",
-        "ferpa": {
-          "title": "FERPA Compliance:",
-          "content": "For U.S. educational institutions, we comply with FERPA requirements for student data protection and parental access rights."
-        },
-        "gdpr": {
-          "title": "GDPR Compliance:",
-          "content": "For users in the European Union, we comply with GDPR requirements including data subject rights, lawful processing, and data minimization principles."
-        },
-        "general": "We implement appropriate technical and organizational measures to ensure data security and compliance with applicable privacy laws."
-      },
-      "liability": {
-        "title": "9. Limitation of Liability",
-        "content1": "To the maximum extent permitted by applicable law, Scolink shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the Service.",
-        "content2": "Our total liability for any claims arising from these Terms or the Service shall not exceed the amount paid by you for the Service in the 12 months preceding the claim."
-      },
-      "indemnification": {
-        "title": "10. Indemnification",
-        "content": "You agree to indemnify and hold Scolink harmless from any claims, damages, losses, or expenses arising from your violation of these Terms, misuse of the Service, or violation of any applicable laws or regulations."
-      },
-      "termination": {
-        "title": "11. Account Termination",
-        "content1": "Either party may terminate this agreement at any time. Upon termination:",
-        "actions": {
-          "immediate": "Your access to the Service will be immediately terminated",
-          "data": "We will retain your data for a reasonable period as required for legal compliance",
-          "noRefund": "No refunds will be provided for prepaid periods",
-          "export": "You may request data export during the termination period"
-        }
-      },
-      "governing": {
-        "title": "12. Governing Law and Dispute Resolution",
-        "content": "These Terms shall be governed by and construed in accordance with the laws of [Jurisdiction]. Any disputes arising from these Terms shall be resolved through binding arbitration in [Location]."
-      },
-      "changes": {
-        "title": "13. Changes to Terms",
-        "content": "We reserve the right to modify these Terms at any time. Material changes will be communicated via email or through the Service with at least 30 days advance notice."
-      },
-      "severability": {
-        "title": "14. Severability",
-        "content": "If any provision of these Terms is found to be unenforceable, the remaining provisions will remain in full force and effect."
-      },
-      "entire": {
-        "title": "15. Entire Agreement",
-        "content": "These Terms constitute the entire agreement between you and Scolink regarding the use of the Service and supersede all prior agreements."
-      },
-      "waiver": {
-        "title": "16. Waiver",
-        "content": "Our failure to enforce any provision of these Terms shall not constitute a waiver of that provision or any other provisions."
-      },
-      "contact": {
-        "title": "17. Contact Information",
-        "content": "For questions about these Terms, please contact us at:",
-        "email": "legal@scolink.com",
-        "phone": "+1 (555) 123-4567"
-      }
-    }
   }
-  }
-}
+}}

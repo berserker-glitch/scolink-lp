@@ -28,12 +28,11 @@
       "contact": "Contact",
       "privacy": "Politique de confidentialité",
       "terms": "Conditions d'utilisation",
+      "refund": "Politique de remboursement",
       "howtouse": "Comment utiliser"
     },
     "contact": {
-      "email": "info@scolink.com",
-      "phone": "+33 1 23 45 67 89",
-      "address": "Paris, France"
+      "email": "contact.scolink@gmail.com"
     },
     "social": {
       "facebook": "Facebook",
@@ -380,132 +379,53 @@
       "loginUrl": "https://app.scolink.ink/login"
     },
   "terms": {
-    "title": "Conditions",
-    "subtitle": "d'utilisation",
-    "description": "Veuillez lire attentivement ces conditions d'utilisation avant d'utiliser la plateforme de gestion éducative de Scolink.",
+    "title": "Conditions d'utilisation",
+    "description": "Bienvenue chez Scolink. Merci de lire ces conditions pour comprendre comment utiliser notre plateforme de gestion éducative.",
     "lastUpdated": "Dernière mise à jour",
     "sections": {
-      "agreement": {
-        "title": "1. Accord sur les Conditions",
-        "content1": "Ces Conditions d'utilisation (\"Conditions\") constituent un accord juridiquement contraignant entre vous (\"Utilisateur\", \"vous\" ou \"votre\") et Scolink (\"nous\", \"notre\" ou \"nos\") régissant votre accès et votre utilisation de notre plateforme de gestion éducative, incluant tous les sites web, applications mobiles et services connexes (collectivement, le \"Service\").",
-        "content2": "En accédant, vous inscrivant ou utilisant le Service, vous reconnaissez avoir lu, compris et accepté d'être lié par ces Conditions. Si vous n'acceptez pas ces Conditions, vous ne devez pas accéder ou utiliser le Service.",
-        "content3": "Ces Conditions s'appliquent à tous les utilisateurs du Service, incluant les institutions éducatives, administrateurs, enseignants, membres du personnel, étudiants et parents qui peuvent accéder au Service via des comptes institutionnels."
+      "welcome": {
+        "title": "Bienvenue chez Scolink",
+        "content": "En utilisant notre plateforme, vous acceptez ces conditions simplifiées pour notre service de gestion éducative basé au Maroc."
       },
       "service": {
-        "title": "2. Description du Service",
-        "description": "Scolink est une plateforme complète de gestion éducative basée sur le cloud conçue pour rationaliser les opérations des institutions éducatives. Notre Service fournit :",
-        "features": {
-          "student": "Gestion des Informations Étudiantes : Gestion complète des profils étudiants, suivi des inscriptions et dossiers académiques",
-          "financial": "Gestion Financière : Traitement des paiements, collecte des frais, facturation et rapports financiers",
-          "academic": "Gestion Académique : Planification des cours, suivi des présences, gestion des notes et planification des programmes",
-          "communication": "Outils de Communication : Messagerie interne, notifications aux parents et systèmes d'annonces",
-          "analytics": "Analyses et Rapports : Tableaux de bord complets, analyses de performance et rapports personnalisés"
-        }
+        "title": "1. Notre service",
+        "content": "Scolink fournit des outils de gestion éducative pour les institutions marocaines incluant la gestion des étudiants, la planification et les fonctionnalités administratives."
       },
       "accounts": {
-        "title": "3. Comptes Utilisateurs et Responsabilités",
-        "content1": "Pour accéder à certaines fonctionnalités du Service, vous devez créer un compte. Lors de votre inscription, vous acceptez de :",
-        "requirements": {
-          "accurate": "Fournir des informations exactes, actuelles et complètes sur vous-même et votre institution",
-          "secure": "Maintenir la sécurité de votre mot de passe et des identifiants de votre compte",
-          "responsible": "Être responsable de toutes les activités qui se produisent sous votre compte",
-          "notify": "Nous notifier immédiatement de toute utilisation non autorisée de votre compte"
-        },
-        "content2": "Les administrateurs institutionnels sont responsables de la gestion de l'accès des utilisateurs au sein de leur organisation et de garantir le respect de ces Conditions par tous les utilisateurs de leur institution."
+        "title": "2. Comptes utilisateurs",
+        "content": "Vous êtes responsable de maintenir la sécurité de votre compte et de fournir des informations exactes à votre établissement éducatif."
       },
-      "dataPrivacy": {
-        "title": "4. Confidentialité et Protection des Données",
-        "content1": "Nous nous engageons à protéger votre vie privée et les informations personnelles des étudiants, du personnel et autres utilisateurs. Nos pratiques de traitement des données sont conformes à :",
-        "compliance": {
-          "gdpr": "Règlement Général sur la Protection des Données (RGPD) pour les utilisateurs dans l'Union Européenne",
-          "ferpa": "Family Educational Rights and Privacy Act (FERPA) pour les institutions éducatives aux États-Unis",
-          "local": "Lois et réglementations locales sur la protection des données dans votre juridiction"
-        },
-        "content2": "Nous collectons, traitons et stockons les informations personnelles uniquement si nécessaire pour fournir le Service et comme permis par les lois applicables. Toutes les données sont chiffrées en transit et au repos."
+      "usage": {
+        "title": "3. Utilisation acceptable",
+        "content": "Utilisez notre plateforme de manière respectueuse et conformément aux lois marocaines. Ne pas abuser ou tenter de nuire à notre système."
       },
-      "payment": {
-        "title": "5. Conditions de Paiement et Facturation",
-        "content1": "Le paiement pour le Service est requis pour certains plans et fonctionnalités. En vous abonnant à un plan payant, vous acceptez de :",
-        "terms": {
-          "payment": "Payer tous les frais associés à votre plan sélectionné",
-          "billing": "Fournir des informations de facturation exactes",
-          "autoRenewal": "Permettre le renouvellement automatique de votre abonnement sauf annulation",
-          "changes": "Accepter que les prix puissent changer avec un préavis de 30 jours"
-        },
-        "content2": "Tous les frais sont non remboursables sauf indication expresse dans ces Conditions ou requis par la loi applicable."
+      "payments": {
+        "title": "4. Paiements",
+        "content": "Le traitement des paiements est sécurisé par notre fournisseur. Toutes les transactions sont traitées en toute sécurité selon les normes de l'industrie."
       },
-      "availability": {
-        "title": "6. Disponibilité du Service et Support",
-        "content1": "Nous nous efforçons de fournir une disponibilité continue du Service, mais nous ne garantissons pas un accès ininterrompu. La maintenance du service, les mises à jour ou des circonstances imprévues peuvent causer des interruptions temporaires.",
-        "support": {
-          "basic": "Les utilisateurs du plan Basic reçoivent un support par email pendant les heures ouvrables",
-          "professional": "Les utilisateurs du plan Professionnel reçoivent un support prioritaire par email et chat",
-          "premium": "Les utilisateurs du plan Premium reçoivent une gestion de compte dédiée",
-          "lifetime": "Les utilisateurs du plan Lifetime reçoivent un support prioritaire et un accès direct à l'équipe de développement"
-        }
+      "data": {
+        "title": "5. Vos données",
+        "content": "Vos données éducatives appartiennent à votre établissement. Nous les traitons en toute sécurité pour fournir nos services comme décrit dans notre Politique de confidentialité."
       },
-      "intellectual": {
-        "title": "7. Droits de Propriété Intellectuelle",
-        "content1": "Le Service et tout le contenu, fonctionnalités et fonctionnalités connexes sont la propriété de Scolink et sont protégés par les lois sur le droit d'auteur, les marques et autres droits de propriété intellectuelle.",
-        "content2": "Vous ne pouvez pas reproduire, distribuer, modifier ou créer des œuvres dérivées de notre Service sans autorisation écrite explicite.",
-        "content3": "Le contenu généré par les utilisateurs téléchargé sur le Service reste la propriété des utilisateurs ou institutions respectifs, sous réserve de nos droits d'utilisation des données comme indiqué dans ces Conditions."
-      },
-      "dataProtection": {
-        "title": "8. Protection des Données et Confidentialité (FERPA, RGPD)",
-        "ferpa": {
-          "title": "Conformité FERPA :",
-          "content": "Pour les institutions éducatives américaines, nous nous conformons aux exigences FERPA pour la protection des données des étudiants et les droits d'accès des parents."
-        },
-        "gdpr": {
-          "title": "Conformité RGPD :",
-          "content": "Pour les utilisateurs dans l'Union Européenne, nous nous conformons aux exigences RGPD incluant les droits des personnes concernées, le traitement licite et les principes de minimisation des données."
-        },
-        "general": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour assurer la sécurité des données et la conformité aux lois applicables sur la confidentialité."
-      },
-      "liability": {
-        "title": "9. Limitation de Responsabilité",
-        "content1": "Dans la mesure maximale permise par la loi applicable, Scolink ne sera pas responsable des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs découlant de votre utilisation du Service.",
-        "content2": "Notre responsabilité totale pour toute réclamation découlant de ces Conditions ou du Service ne dépassera pas le montant payé par vous pour le Service dans les 12 mois précédant la réclamation."
-      },
-      "indemnification": {
-        "title": "10. Indemnisation",
-        "content": "Vous acceptez d'indemniser et de dégager Scolink de toute responsabilité concernant les réclamations, dommages, pertes ou dépenses découlant de votre violation de ces Conditions, mauvaise utilisation du Service ou violation de toute loi ou réglementation applicable."
-      },
-      "termination": {
-        "title": "11. Résiliation du Compte",
-        "content1": "Chaque partie peut résilier cet accord à tout moment. Lors de la résiliation :",
-        "actions": {
-          "immediate": "Votre accès au Service sera immédiatement terminé",
-          "data": "Nous conserverons vos données pendant une période raisonnable comme requis pour la conformité légale",
-          "noRefund": "Aucun remboursement ne sera fourni pour les périodes prépayées",
-          "export": "Vous pouvez demander l'exportation des données pendant la période de résiliation"
-        }
-      },
-      "governing": {
-        "title": "12. Loi Applicable et Résolution des Litiges",
-        "content": "Ces Conditions seront régies et interprétées conformément aux lois de [Juridiction]. Tout litige découlant de ces Conditions sera résolu par arbitrage obligatoire à [Lieu]."
+      "noRefunds": {
+        "title": "6. Absence de remboursement",
+        "content": "Les paiements d'abonnement à Scolink ne sont pas remboursables. Veuillez utiliser notre période de démonstration ou nous contacter avant de vous engager pour vous assurer que notre service répond à vos besoins."
       },
       "changes": {
-        "title": "13. Modifications des Conditions",
-        "content": "Nous nous réservons le droit de modifier ces Conditions à tout moment. Les changements importants seront communiqués par email ou via le Service avec au moins 30 jours de préavis."
+        "title": "7. Modifications du service",
+        "content": "Nous pouvons mettre à jour notre service et ces conditions. Les modifications importantes seront communiquées à l'avance."
       },
-      "severability": {
-        "title": "14. Séparabilité",
-        "content": "Si une disposition de ces Conditions est jugée inapplicable, les autres dispositions resteront pleinement en vigueur."
+      "termination": {
+        "title": "8. Résiliation du compte",
+        "content": "L'une ou l'autre partie peut mettre fin à la relation de service. Lors de la résiliation, l'accès se termine immédiatement avec rétention des données comme requis légalement."
       },
-      "entire": {
-        "title": "15. Accord Complet",
-        "content": "Ces Conditions constituent l'accord complet entre vous et Scolink concernant l'utilisation du Service et remplacent tous les accords antérieurs."
-      },
-      "waiver": {
-        "title": "16. Renonciation",
-        "content": "Notre incapacité à faire respecter une disposition de ces Conditions ne constituera pas une renonciation à cette disposition ou à toute autre disposition."
+      "law": {
+        "title": "9. Droit applicable",
+        "content": "Ces conditions sont régies par le droit marocain. Les litiges seront résolus devant les tribunaux marocains."
       },
       "contact": {
-        "title": "17. Informations de Contact",
-        "content": "Pour toute question concernant ces Conditions, veuillez nous contacter à :",
-        "email": "legal@scolink.com",
-        "phone": "+33 1 23 45 67 89"
+        "title": "10. Contact",
+        "content": "Pour toute question concernant ces conditions, contactez-nous via nos canaux de support."
       }
     }
   },
@@ -530,10 +450,91 @@
       "description": "Lisez les conditions d'utilisation de Scolink pour notre plateforme de gestion éducative. Découvrez l'utilisation du service, la confidentialité des données et les accords légaux.",
       "keywords": "conditions d'utilisation, conditions plateforme éducative, juridique scolink, conditions gestion scolaire"
     },
+    "privacy": {
+      "title": "Politique de confidentialité - Plateforme Éducative Scolink",
+      "description": "Découvrez comment Scolink protège les données des établissements éducatifs marocains qui utilisent notre plateforme.",
+      "keywords": "politique de confidentialité, confidentialité scolink, protection des données Maroc"
+    },
+    "refund": {
+      "title": "Politique de remboursement - Plateforme Éducative Scolink",
+      "description": "Consultez la politique de non-remboursement de Scolink et la procédure d'annulation.",
+      "keywords": "politique de remboursement, remboursements scolink, politique d'abonnement"
+    },
     "404": {
       "title": "Page Non Trouvée - Système de Gestion Scolaire Scolink",
       "description": "La page que vous recherchez n'existe pas. Retournez à la page d'accueil de la plateforme de gestion scolaire Scolink.",
       "keywords": "erreur 404, page non trouvée, gestion scolaire scolink"
     }
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "description": "Cette page explique comment Scolink, société basée au Maroc, protège les informations confiées par les établissements éducatifs.",
+    "lastUpdated": "Dernière mise à jour",
+    "sections": {
+      "welcome": {
+        "title": "Bienvenue dans notre Politique de confidentialité",
+        "content": "Scolink respecte la vie privée des établissements éducatifs et prend la protection des données au sérieux."
+      },
+      "dataCollection": {
+        "title": "1. Collecte de données",
+        "content": "Nous collectons uniquement les informations nécessaires pour fournir nos services de gestion éducative à votre établissement."
+      },
+      "dataUse": {
+        "title": "2. Comment nous utilisons vos données",
+        "content": "Vos données sont utilisées exclusivement pour fournir nos services incluant la gestion des étudiants, la planification et les rapports."
+      },
+      "dataSharing": {
+        "title": "3. Partage de données",
+        "content": "Nous ne vendons, ne louons, ni ne partageons vos données avec des tiers sauf si requis par la loi marocaine ou pour fournir nos services."
+      },
+      "dataSecurity": {
+        "title": "4. Sécurité des données",
+        "content": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données contre l'accès non autorisé ou la perte."
+      },
+      "userRights": {
+        "title": "5. Vos droits",
+        "content": "Vous avez le droit d'accéder, de corriger ou de demander la suppression de vos données personnelles conformément aux lois marocaines sur la protection des données."
+      },
+      "retention": {
+        "title": "6. Conservation des données",
+        "content": "Nous conservons vos données uniquement le temps nécessaire pour fournir nos services ou comme requis par la loi."
+      },
+      "contact": {
+        "title": "7. Nous contacter",
+        "content": "Pour toute question concernant cette politique de confidentialité, contactez-nous via nos canaux de support."
+      }
+    }
+  },
+  "refund": {
+    "title": "Politique de remboursement",
+    "description": "Scolink maintient une politique claire et transparente. Les paiements d'abonnement ne sont pas remboursables.",
+    "lastUpdated": "Dernière mise à jour",
+    "sections": {
+      "policy": {
+        "title": "Notre politique de remboursement",
+        "content": "Tous les paiements d'abonnement à Scolink sont définitifs et non remboursables."
+      },
+      "reasoning": {
+        "title": "1. Pourquoi pas de remboursement",
+        "content": "En tant que fournisseur de services logiciels, nous investissons des ressources immédiatement lors de l'activation du compte pour vous fournir un service continu."
+      },
+      "beforePurchase": {
+        "title": "2. Avant votre achat",
+        "content": "Nous vous encourageons fortement à utiliser notre période d'essai gratuite ou à contacter notre équipe de support pour vous assurer que notre service répond à vos besoins."
+      },
+      "cancellation": {
+        "title": "3. Annulation d'abonnement",
+        "content": "Vous pouvez annuler votre abonnement à tout moment. L'annulation prend effet à la fin de votre période de facturation actuelle."
+      },
+      "exceptionalCases": {
+        "title": "4. Circonstances exceptionnelles",
+        "content": "Dans de rares cas impliquant des problèmes techniques qui empêchent la livraison du service, nous pouvons considérer des crédits de compte au cas par cas."
+      },
+      "contact": {
+        "title": "5. Questions",
+        "content": "Si vous avez des questions sur cette politique, veuillez contacter notre équipe de support avant de faire un achat."
+      }
+    }
   }
-  }}
+}
+}

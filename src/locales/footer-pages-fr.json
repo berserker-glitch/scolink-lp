@@ -1,0 +1,139 @@
+{
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "description": "Bienvenue chez Scolink. Veuillez lire attentivement ces conditions pour comprendre vos droits et responsabilités lors de l'utilisation de notre plateforme de gestion éducative.",
+    "lastUpdated": "Dernière mise à jour",
+    "sections": {
+      "welcome": {
+        "title": "Bienvenue chez Scolink",
+        "content": "En accédant ou en utilisant la plateforme Scolink, vous acceptez d'être lié par ces Conditions d'utilisation. Scolink est une entreprise marocaine fournissant des solutions complètes de gestion éducative aux institutions à travers le Maroc et au-delà."
+      },
+      "service": {
+        "title": "1. Description du service",
+        "content": "Scolink fournit une plateforme de gestion éducative basée sur le cloud qui comprend : la gestion des informations étudiantes, le suivi académique et la notation, la surveillance des présences, la planification et l'établissement d'horaires, les outils de communication pour les éducateurs et les parents, la gestion financière et le suivi des frais, les rapports et analyses, et le support multi-sites pour les réseaux éducatifs."
+      },
+      "eligibility": {
+        "title": "2. Éligibilité et inscription",
+        "content": "Pour utiliser Scolink, vous devez être un représentant autorisé d'une institution éducative ou avoir l'autorisation appropriée pour accéder à la plateforme. Vous devez fournir des informations exactes, complètes et à jour lors de l'inscription et maintenir la sécurité de vos identifiants de compte."
+      },
+      "accounts": {
+        "title": "3. Comptes utilisateurs et responsabilités",
+        "content": "Chaque utilisateur est responsable de maintenir la confidentialité de ses identifiants de connexion et de toutes les activités sous son compte. Les institutions sont responsables de la gestion de l'accès des utilisateurs et de s'assurer du respect de ces conditions par tous les utilisateurs au sein de leur organisation."
+      },
+      "usage": {
+        "title": "4. Politique d'utilisation acceptable",
+        "content": "Vous acceptez d'utiliser Scolink de manière légale et respectueuse. Les activités interdites incluent : tenter de violer la sécurité ou d'accéder à des zones non autorisées, interférer avec le fonctionnement de la plateforme ou l'accès d'autres utilisateurs, utiliser le service à des fins illégales ou non autorisées, partager les identifiants de compte avec des personnes non autorisées, et tenter d'effectuer de l'ingénierie inverse ou de copier la fonctionnalité de la plateforme."
+      },
+      "payments": {
+        "title": "5. Traitement des paiements et sécurité",
+        "content": "Tout traitement des paiements est géré par des fournisseurs de paiement tiers certifiés utilisant des protocoles de chiffrement et de sécurité conformes aux normes de l'industrie. Scolink ne stocke pas d'informations complètes de carte de crédit sur nos serveurs. Vous êtes responsable de vous assurer que vous avez l'autorisation appropriée pour effectuer des paiements au nom de votre institution."
+      },
+      "intellectual": {
+        "title": "6. Droits de propriété intellectuelle",
+        "content": "Scolink conserve tous les droits sur la plateforme, y compris les logiciels, la conception, la documentation et les marques de commerce. Votre institution conserve la propriété de toutes les données saisies dans le système. Vous accordez à Scolink une licence limitée pour traiter vos données uniquement pour fournir nos services."
+      },
+      "availability": {
+        "title": "7. Disponibilité du service et maintenance",
+        "content": "Nous nous efforçons de maintenir une disponibilité de 99,9% mais ne pouvons garantir un service ininterrompu. La maintenance programmée sera annoncée à l'avance lorsque possible. Nous ne sommes pas responsables des interruptions de service dues à des circonstances indépendantes de notre volonté."
+      },
+      "modifications": {
+        "title": "8. Modifications et mises à jour du service",
+        "content": "Scolink se réserve le droit de modifier, mettre à jour ou abandonner des fonctionnalités de la plateforme. Nous fournirons un préavis raisonnable pour les changements significatifs qui peuvent affecter votre utilisation du service. L'utilisation continue après les modifications constitue une acceptation des changements."
+      },
+      "termination": {
+        "title": "9. Résiliation du compte et exportation des données",
+        "content": "L'une ou l'autre partie peut résilier l'accord de service avec un préavis approprié. Lors de la résiliation, votre accès cessera immédiatement. Vous pouvez demander l'exportation des données dans les 30 jours suivant la résiliation. Les données seront conservées selon les exigences légales et notre politique de conservation des données."
+      },
+      "limitation": {
+        "title": "10. Limitation de responsabilité",
+        "content": "Dans la mesure maximale permise par le droit marocain, la responsabilité de Scolink est limitée au montant payé pour les services dans les 12 mois précédant toute réclamation. Nous ne sommes pas responsables des dommages indirects, consécutifs ou punitifs découlant de votre utilisation de la plateforme."
+      },
+      "law": {
+        "title": "11. Droit applicable et résolution des litiges",
+        "content": "Ces conditions sont régies par les lois du Royaume du Maroc. Tout litige sera résolu par les tribunaux compétents du Maroc. Nous encourageons la résolution des litiges par communication directe avant de poursuivre une action en justice."
+      },
+      "contact": {
+        "title": "12. Contact et support",
+        "content": "Pour des questions concernant ces conditions, le support technique ou des demandes générales, veuillez nous contacter via nos canaux de support officiels. Nous nous engageons à fournir une assistance rapide et utile à tous nos utilisateurs."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "description": "Cette politique de confidentialité complète explique comment Scolink, une entreprise technologique éducative marocaine, collecte, utilise, protège et gère les informations personnelles qui lui sont confiées par les établissements éducatifs.",
+    "lastUpdated": "Dernière mise à jour",
+    "sections": {
+      "welcome": {
+        "title": "Notre engagement envers la confidentialité",
+        "content": "Chez Scolink, protéger la confidentialité et la sécurité des informations personnelles est fondamental pour notre mission. En tant qu'entreprise marocaine au service des établissements éducatifs, nous nous engageons à maintenir les plus hauts standards de protection des données et à respecter les lois et réglementations applicables en matière de confidentialité."
+      },
+      "dataCollection": {
+        "title": "1. Informations que nous collectons",
+        "content": "Nous collectons les informations nécessaires pour fournir nos services de gestion éducative, notamment : les informations personnelles des étudiants (noms, coordonnées, dossiers académiques), les informations du personnel et des administrateurs (noms, rôles, informations de contact), les données institutionnelles (informations scolaires, détails des programmes, registres de présence), les données d'utilisation (heures de connexion, utilisation des fonctionnalités, interactions système), et les données techniques (adresses IP, informations de navigateur, identifiants d'appareils). Toute collecte de données est limitée à ce qui est nécessaire pour la prestation de services et la gestion institutionnelle."
+      },
+      "dataUse": {
+        "title": "2. Comment nous utilisons vos informations",
+        "content": "Nous utilisons les informations collectées exclusivement à des fins éducatives légitimes : fournir les fonctionnalités principales de la plateforme (gestion des étudiants, planification, notation), générer des rapports et analyses pour la prise de décision institutionnelle, faciliter la communication entre éducateurs, étudiants et parents, assurer la sécurité du système et prévenir les accès non autorisés, fournir un support technique et un dépannage, et améliorer nos services basés sur les modèles d'utilisation. Nous n'utilisons jamais les informations personnelles pour le marketing auprès des étudiants ou à des fins commerciales non liées aux services éducatifs."
+      },
+      "dataSharing": {
+        "title": "3. Partage et divulgation d'informations",
+        "content": "Nous maintenons des contrôles stricts sur le partage de données. Les informations ne peuvent être partagées que dans les circonstances suivantes : avec le personnel scolaire autorisé selon les besoins éducatifs, avec des fournisseurs de services tiers qui assistent dans les opérations de plateforme (sous des accords stricts de traitement des données), lorsque requis par la loi marocaine ou un processus légal, avec votre consentement explicite pour des fins spécifiques, ou sous forme anonymisée et agrégée qui ne peut identifier des individus. Nous ne vendons, ne louons, ni n'échangeons jamais d'informations personnelles à des tiers à des fins de marketing."
+      },
+      "dataSecurity": {
+        "title": "4. Sécurité et protection des données",
+        "content": "Nous mettons en œuvre des mesures de sécurité complètes pour protéger vos informations : chiffrement des données en transit et au repos utilisant des protocoles standards de l'industrie, infrastructure de serveurs sécurisée avec mises à jour de sécurité régulières et surveillance, contrôles d'accès assurant que seul le personnel autorisé peut accéder à des données spécifiques, audits de sécurité réguliers et évaluations de vulnérabilités, procédures de sauvegarde sécurisées et de récupération après sinistre, et formation du personnel sur la protection des données et les meilleures pratiques de confidentialité. Nous surveillons et mettons à jour continuellement nos mesures de sécurité pour faire face aux menaces émergentes."
+      },
+      "userRights": {
+        "title": "5. Vos droits en matière de confidentialité",
+        "content": "Sous les lois marocaines de protection des données et notre engagement de confidentialité, vous avez le droit de : accéder à vos informations personnelles et comprendre comment elles sont utilisées, demander des corrections aux informations inexactes ou incomplètes, demander la suppression d'informations personnelles dans certaines circonstances, vous opposer à certains types de traitement de données, recevoir une copie de vos données dans un format portable, et retirer le consentement lorsque le traitement est basé sur le consentement. Les établissements éducatifs peuvent exercer ces droits au nom de leurs étudiants et personnel."
+      },
+      "retention": {
+        "title": "6. Conservation et suppression des données",
+        "content": "Nous conservons les informations personnelles seulement aussi longtemps que nécessaire pour les fins décrites dans cette politique : les dossiers actifs des étudiants et du personnel sont maintenus pendant la période d'inscription ou d'emploi, les dossiers académiques peuvent être conservés plus longtemps selon les réglementations éducatives, les journaux système et données techniques sont conservés à des fins de sécurité et de dépannage, et les informations de compte sont supprimées dans un délai raisonnable après la résiliation du service. Sur demande et lorsque légalement permis, nous supprimerons les informations personnelles et fournirons une confirmation de suppression."
+      },
+      "international": {
+        "title": "7. Transferts internationaux de données",
+        "content": "En tant qu'entreprise marocaine, nous traitons principalement les données au Maroc. Si les données doivent être transférées internationalement pour des raisons techniques ou opérationnelles, nous nous assurons que des garanties appropriées sont en place, notamment : des accords de protection des données adéquats avec les fournisseurs de services, la conformité aux réglementations applicables de transfert international de données, et le maintien du même niveau de protection quel que soit l'emplacement des données."
+      },
+      "updates": {
+        "title": "8. Mises à jour et changements de politique",
+        "content": "Nous pouvons mettre à jour cette politique de confidentialité pour refléter les changements dans nos pratiques, exigences légales, ou offres de services. Lorsque nous apportons des changements significatifs, nous : notifierons les administrateurs institutionnels par email ou notifications de plateforme, publierons la politique mise à jour avec indication claire des changements, fournirons un délai de préavis raisonnable avant que les changements prennent effet, et maintiendrons les versions précédentes pour référence. L'utilisation continue de nos services après les mises à jour de politique constitue une acceptation des changements."
+      },
+      "contact": {
+        "title": "9. Nous contacter concernant la confidentialité",
+        "content": "Pour des questions sur cette politique de confidentialité, pour exercer vos droits de confidentialité, ou pour signaler des préoccupations de confidentialité, veuillez nous contacter via nos canaux de support officiels. Nous nous engageons à traiter les demandes de confidentialité rapidement et de manière transparente. Notre équipe de confidentialité est disponible pour aider les établissements éducatifs à comprendre et gérer leurs obligations de protection des données."
+      }
+    }
+  },
+  "refund": {
+    "title": "Politique de remboursement",
+    "description": "Scolink maintient une politique claire et transparente de non-remboursement. Tous les paiements d'abonnement sont définitifs et non remboursables.",
+    "lastUpdated": "Dernière mise à jour",
+    "sections": {
+      "policy": {
+        "title": "Notre politique de non-remboursement",
+        "content": "Tous les paiements d'abonnement à Scolink sont définitifs et non remboursables. Cette politique s'applique à tous les plans d'abonnement, y compris les abonnements mensuels, annuels et à vie. Une fois le paiement traité, aucun remboursement ne sera accordé en aucune circonstance."
+      },
+      "reasoning": {
+        "title": "1. Pourquoi nous n'offrons pas de remboursements",
+        "content": "En tant que fournisseur de services logiciels basés sur le cloud, nous allouons immédiatement des ressources, de la capacité serveur et une infrastructure technique lors de l'activation du compte. Notre équipe investit du temps dans l'intégration, l'assistance à la migration des données et la fourniture continue de services dès le premier jour. Ces coûts sont engagés immédiatement et ne peuvent être récupérés."
+      },
+      "beforePurchase": {
+        "title": "2. Avant de faire votre achat",
+        "content": "Nous encourageons fortement tous les clients potentiels à évaluer minutieusement notre service avant de s'engager dans un abonnement payant. Profitez de notre période d'essai gratuite, planifiez une démonstration personnalisée avec notre équipe, consultez notre documentation complète et notre liste de fonctionnalités, et contactez notre équipe de support pour toute question sur la fonctionnalité ou la compatibilité avec les besoins de votre institution."
+      },
+      "cancellation": {
+        "title": "3. Gestion et annulation d'abonnement",
+        "content": "Bien que nous n'offrions pas de remboursements, vous avez un contrôle total sur votre abonnement. Vous pouvez annuler votre abonnement à tout moment via votre tableau de bord de compte ou en contactant notre équipe de support. L'annulation prend effet à la fin de votre période de facturation actuelle, et vous continuerez à avoir accès à toutes les fonctionnalités jusqu'à cette date. Aucun remboursement partiel n'est fourni pour le temps non utilisé."
+      },
+      "alternatives": {
+        "title": "4. Solutions alternatives",
+        "content": "Si vous rencontrez des problèmes avec notre service, nous vous encourageons à contacter notre équipe de support en premier lieu. Nous offrons des ressources de formation complètes, une assistance personnalisée à l'intégration, un support technique pour résoudre tout problème, et des conseils pour maximiser la valeur de votre abonnement. Notre objectif est d'assurer votre succès avec Scolink."
+      },
+      "contact": {
+        "title": "5. Questions et support",
+        "content": "Si vous avez des questions sur cette politique de remboursement ou avez besoin d'aide avec votre abonnement, veuillez contacter notre équipe de support avant de prendre une décision d'achat. Nous sommes là pour vous aider à faire un choix éclairé et nous assurer que Scolink convient à votre institution éducative."
+      }
+    }
+  }
+}

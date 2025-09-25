@@ -9,9 +9,7 @@ import {
   InstagramIcon,
   LinkedinIcon,
   YoutubeIcon,
-  Mail,
-  Phone,
-  MapPin
+  Mail
 } from 'lucide-react';
 
 interface FooterLink {
@@ -40,18 +38,15 @@ const FooterLinksComponent = () => {
 		{
 			label: t('footer.sections.company'),
 			links: [
-				{ title: t('footer.links.about'), href: '/about' },
-				{ title: t('footer.links.contact'), href: '#cta' },
 				{ title: t('footer.links.privacy'), href: '/privacy' },
 				{ title: t('footer.links.terms'), href: '/terms' },
+				{ title: t('footer.links.refund'), href: '/refund' },
 			],
 		},
 		{
 			label: t('footer.sections.contact'),
 			links: [
-				{ title: t('footer.contact.email'), href: 'mailto:info@scolink.com', icon: Mail },
-				{ title: t('footer.contact.phone'), href: 'tel:+15551234567', icon: Phone },
-				{ title: t('footer.contact.address'), href: '#', icon: MapPin },
+				{ title: 'contact.scolink@gmail.com', href: 'mailto:contact.scolink@gmail.com', icon: Mail },
 			],
 		},
 	];
