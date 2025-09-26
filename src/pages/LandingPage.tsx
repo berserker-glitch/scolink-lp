@@ -497,34 +497,34 @@ const LandingPage = () => {
                   <span className="text-lg font-normal text-muted-foreground block">one-time</span>
                 </div>
                 <CardDescription className="mt-4">
-                  Complete lifetime access to all features
+                  Same as Premium but pay once, use forever
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                    <span className="text-sm">Everything from Premium</span>
+                    <span className="text-sm">Unlimited subjects & students</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                    <span className="text-sm">Lifetime access</span>
+                    <span className="text-sm">Everything fluid</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                    <span className="text-sm">Access to new features</span>
+                    <span className="text-sm">Teacher & student accounts</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                    <span className="text-sm">Free updates forever</span>
+                    <span className="text-sm">Advanced analytics</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                    <span className="text-sm">Dedicated support</span>
+                    <span className="text-sm">Dedicated account manager</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <CheckCircle className="h-5 w-5 text-green-600 flex-shrink-0" />
-                    <span className="text-sm">Early access to features</span>
+                    <span className="text-sm">Beta features access</span>
                   </div>
                 </div>
                 <Button className="w-full mt-6 bg-primary hover:bg-primary/90">
@@ -548,7 +548,7 @@ const LandingPage = () => {
               </div>
               <div className="text-left">
                 <h4 className="font-semibold mb-2">Do you offer refunds?</h4>
-                <p className="text-muted-foreground text-sm">We offer a 30-day money-back guarantee on all plans.</p>
+                <p className="text-muted-foreground text-sm">All subscription payments are final and non-refundable. Use our free Basic plan to evaluate the service first.</p>
               </div>
               <div className="text-left">
                 <h4 className="font-semibold mb-2">What payment methods do you accept?</h4>

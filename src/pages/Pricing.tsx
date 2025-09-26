@@ -41,8 +41,8 @@ const Pricing = () => {
         { name: t('pricing.plans.basic.features.paymentTracking', 'Basic payment tracking'), included: true },
         { name: t('pricing.plans.basic.features.groupScheduling', 'Basic group & scheduling'), included: true },
         { name: t('pricing.plans.basic.features.noAttendance', 'No attendance taking'), included: false },
-        { name: t('pricing.plans.basic.features.noStaffAccounts', 'Staff accounts'), included: false },
-        { name: t('pricing.plans.basic.features.noTeacherAccounts', 'Teacher accounts'), included: false }
+        { name: t('pricing.plans.basic.features.noStaffAccounts', 'No staff accounts'), included: false },
+        { name: t('pricing.plans.basic.features.noTeacherAccounts', 'No teacher accounts'), included: false }
       ],
       buttonText: t('pricing.plans.basic.buttonText', 'Start Free'),
       popular: false
@@ -60,8 +60,8 @@ const Pricing = () => {
         { name: t('pricing.plans.professional.features.staffAccounts', 'Staff accounts'), included: true },
         { name: t('pricing.plans.professional.features.attendanceTaking', 'Attendance taking'), included: true },
         { name: t('pricing.plans.professional.features.advancedAnalytics', 'Advanced analytics'), included: true },
-        { name: t('pricing.plans.professional.features.noTeacherAccounts', 'Teacher accounts'), included: false },
-        { name: t('pricing.plans.professional.features.noUnlimitedSubjects', 'Unlimited subjects'), included: false }
+        { name: t('pricing.plans.professional.features.noTeacherAccounts', 'No teacher accounts'), included: false },
+        { name: t('pricing.plans.professional.features.noUnlimitedSubjects', 'No unlimited subjects'), included: false }
       ],
       buttonText: t('pricing.plans.professional.buttonText', 'Start Professional Plan'),
       popular: true
@@ -88,16 +88,17 @@ const Pricing = () => {
       name: t('pricing.plans.lifetime.name', 'Lifetime'),
       price: t('pricing.plans.lifetime.price', '$500'),
       period: t('pricing.plans.lifetime.period', ' one-time'),
-      description: t('pricing.plans.lifetime.description', 'Complete lifetime access to all features'),
+      description: t('pricing.plans.lifetime.description', 'Same as Premium but pay once, use forever'),
       features: [
-        { name: t('pricing.plans.lifetime.features.everythingFromPremium', 'Everything from Premium'), included: true },
-        { name: t('pricing.plans.lifetime.features.lifetimeAccess', 'Lifetime access'), included: true },
-        { name: t('pricing.plans.lifetime.features.newFeatures', 'Access to new features'), included: true },
-        { name: t('pricing.plans.lifetime.features.freeUpdates', 'Free updates forever'), included: true },
+        { name: t('pricing.plans.lifetime.features.students', 'Unlimited subjects & students'), included: true },
+        { name: t('pricing.plans.lifetime.features.studentManagement', 'Student management'), included: true },
+        { name: t('pricing.plans.lifetime.features.everythingFluid', 'Everything fluid'), included: true },
+        { name: t('pricing.plans.lifetime.features.teacherAccounts', 'Teacher accounts'), included: true },
+        { name: t('pricing.plans.lifetime.features.studentAccounts', 'Student accounts'), included: true },
+        { name: t('pricing.plans.lifetime.features.staffAccounts', 'Staff accounts'), included: true },
+        { name: t('pricing.plans.lifetime.features.advancedAnalytics', 'Advanced analytics'), included: true },
         { name: t('pricing.plans.lifetime.features.dedicatedManager', 'Dedicated account manager'), included: true },
-        { name: t('pricing.plans.lifetime.features.earlyAccess', 'Early access to features'), included: true },
-        { name: t('pricing.plans.lifetime.features.migrationAssistance', 'Migration assistance'), included: true },
-        { name: t('pricing.plans.lifetime.features.advancedAnalytics', 'Advanced analytics'), included: true }
+        { name: t('pricing.plans.lifetime.features.betaAccess', 'Beta features access'), included: true }
       ],
       buttonText: t('pricing.plans.lifetime.buttonText', 'Get Lifetime Access'),
       popular: false
@@ -119,7 +120,7 @@ const Pricing = () => {
     },
     {
       question: t('pricing.faq.questions.refunds.question', "Do you offer refunds?"),
-      answer: t('pricing.faq.questions.refunds.answer', "We offer a 30-day money-back guarantee on all paid plans. If you're not satisfied, contact our support team for a full refund.")
+      answer: t('pricing.faq.questions.refunds.answer', "All subscription payments to Scolink are final and non-refundable. We strongly encourage you to start with our free Basic plan or contact our support team before upgrading to ensure our service meets your needs.")
     },
     {
       question: t('pricing.faq.questions.paymentMethods.question', "What payment methods do you accept?"),
@@ -127,7 +128,7 @@ const Pricing = () => {
     },
     {
       question: t('pricing.faq.questions.lifetimeAccess.question', "Is the Lifetime plan really lifetime access?"),
-      answer: t('pricing.faq.questions.lifetimeAccess.answer', "Yes! The Lifetime plan gives you permanent access to all current features plus any new features we release in the future, all for a one-time payment.")
+      answer: t('pricing.faq.questions.lifetimeAccess.answer', "Yes! The Lifetime plan gives you permanent access to all Premium features plus exclusive beta features access, all for a one-time payment of $500.")
     },
     {
       question: t('pricing.faq.questions.dataSecurity.question', "Is my data secure?"),
@@ -139,7 +140,7 @@ const Pricing = () => {
     },
     {
       question: t('pricing.faq.questions.support.question', "What kind of support do you provide?"),
-      answer: t('pricing.faq.questions.support.answer', "Basic plans include email support, Professional and Premium plans include priority support, and Lifetime plans include dedicated account management with direct access to our development team.")
+      answer: t('pricing.faq.questions.support.answer', "Basic plans include email support, Professional plans include priority support, Premium and Lifetime plans include dedicated account management with direct access to our development team.")
     }
   ];
 
@@ -159,7 +160,7 @@ const Pricing = () => {
     },
     {
       question: "Do you offer refunds?",
-      answer: "We offer a 30-day money-back guarantee on all paid plans. If you're not satisfied, contact our support team for a full refund."
+      answer: "All subscription payments to Scolink are final and non-refundable. We strongly encourage you to start with our free Basic plan or contact our support team before upgrading to ensure our service meets your needs."
     },
     {
       question: "What payment methods do you accept?",
@@ -167,7 +168,7 @@ const Pricing = () => {
     },
     {
       question: "Is the Lifetime plan really lifetime access?",
-      answer: "Yes! The Lifetime plan gives you permanent access to all current features plus any new features we release in the future, all for a one-time payment."
+      answer: "Yes! The Lifetime plan gives you permanent access to all Premium features plus exclusive beta features access, all for a one-time payment of $500."
     },
     {
       question: "Is my data secure?",
@@ -179,7 +180,7 @@ const Pricing = () => {
     },
     {
       question: "What kind of support do you provide?",
-      answer: "Basic plans include email support, Professional and Premium plans include priority support, and Lifetime plans include dedicated account management with direct access to our development team."
+      answer: "Basic plans include email support, Professional plans include priority support, Premium and Lifetime plans include dedicated account management with direct access to our development team."
     }
   ];
 
@@ -211,7 +212,7 @@ const Pricing = () => {
             </h1>
 
             <p className="text-xl text-black/80 mb-12 max-w-4xl mx-auto font-medium leading-relaxed">
-              {t('pricing.hero.description', 'Start free with our Basic plan for up to 100 students, or scale up to our Premium plan with unlimited students and advanced features. Choose the perfect fit for your educational institution.')}
+              {t('pricing.hero.description', 'Start free with our Basic plan for up to 100 students, upgrade to Professional for growing institutions, or choose Premium/Lifetime for unlimited access. Lifetime gives you the same Premium features but you pay once ($500) instead of monthly ($50) - plus exclusive beta features access.')}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -549,7 +550,7 @@ const Pricing = () => {
                 className="px-8 py-6 text-lg hover-lift"
                 onClick={() => window.location.href = t('pricing.cta.loginUrl', 'https://app.scolink.ink/login')}
               >
-                {t('pricing.cta.startTrial', 'Start Free Trial')}
+                {t('pricing.cta.startTrial', 'Try Basic Plan Free')}
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button

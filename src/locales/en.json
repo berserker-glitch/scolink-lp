@@ -47,12 +47,12 @@
     "subtitle": "Educational Center",
     "description": "Complete management system for educational institutions. Manage students, track payments, monitor performance, and streamline operations with real-time analytics and multi-location support.",
     "cta": {
-      "primary": "Start Free Trial",
+      "primary": "Try Basic Plan Free",
       "secondary": "Schedule Demo"
     },
     "features": {
       "noSetup": "No setup fees",
-      "freeTrial": "30-day free trial",
+      "freeTrial": "Free Basic plan available",
       "support": "Enterprise support"
     }
   },
@@ -124,7 +124,7 @@
     "cta": {
       "title": "Ready to Transform Your Educational Center?",
       "description": "Join thousands of educational institutions worldwide that trust Scolink for their management needs.",
-      "trial": "Start Free Trial",
+      "trial": "Try Basic Plan Free",
       "demo": "Schedule Demo"
     }
   },
@@ -176,9 +176,9 @@
   },
   "cta": {
     "title": "Ready to Elevate Your Educational Center?",
-    "subtitle": "Join leading educational institutions using Scolink to streamline operations, optimize payments, and enhance student success. Start your free trial today.",
+    "subtitle": "Join leading educational institutions using Scolink to streamline operations, optimize payments, and enhance student success. Start with our free Basic plan today.",
     "buttons": {
-      "trial": "Start 30-Day Free Trial",
+      "trial": "Try Basic Plan Free",
       "sales": "Contact Sales Team"
     }
   },
@@ -196,7 +196,7 @@
     "hero": {
       "title1": "Choose the Perfect Plan for",
       "title2": "Your Institution",
-      "description": "Start free with our Basic plan for up to 100 students, or scale up to our Premium plan with unlimited students and advanced features. Choose the perfect fit for your educational institution.",
+      "description": "Start free with our Basic plan for up to 100 students, upgrade to Professional for growing institutions, or choose Premium/Lifetime for unlimited access. Lifetime gives you the same Premium features but you pay once ($500) instead of monthly ($50) - plus exclusive beta features access.",
       "features": {
         "freeBasic": "Free Basic plan",
         "noSetupFees": "No setup fees",
@@ -216,8 +216,8 @@
           "paymentTracking": "Basic payment tracking",
           "groupScheduling": "Basic group & scheduling",
           "noAttendance": "No attendance taking",
-          "noStaffAccounts": "Staff accounts",
-          "noTeacherAccounts": "Teacher accounts"
+          "noStaffAccounts": "No staff accounts",
+          "noTeacherAccounts": "No teacher accounts"
         }
       },
       "professional": {
@@ -234,8 +234,8 @@
           "staffAccounts": "Staff accounts",
           "attendanceTaking": "Attendance taking",
           "advancedAnalytics": "Advanced analytics",
-          "noTeacherAccounts": "Teacher accounts",
-          "noUnlimitedSubjects": "Unlimited subjects"
+          "noTeacherAccounts": "No teacher accounts",
+          "noUnlimitedSubjects": "No unlimited subjects"
         }
       },
       "premium": {
@@ -259,17 +259,18 @@
         "name": "Lifetime",
         "price": "$500",
         "period": " one-time",
-        "description": "Complete lifetime access to all features",
+        "description": "Same as Premium but pay once, use forever",
         "buttonText": "Get Lifetime Access",
         "features": {
-          "everythingFromPremium": "Everything from Premium",
-          "lifetimeAccess": "Lifetime access",
-          "newFeatures": "Access to new features",
-          "freeUpdates": "Free updates forever",
+          "students": "Unlimited subjects & students",
+          "studentManagement": "Student management",
+          "everythingFluid": "Everything fluid",
+          "teacherAccounts": "Teacher accounts",
+          "studentAccounts": "Student accounts",
+          "staffAccounts": "Staff accounts",
+          "advancedAnalytics": "Advanced analytics",
           "dedicatedManager": "Dedicated account manager",
-          "earlyAccess": "Early access to features",
-          "migrationAssistance": "Migration assistance",
-          "advancedAnalytics": "Advanced analytics"
+          "betaAccess": "Beta features access"
         }
       }
     },
@@ -306,7 +307,7 @@
     },
     "bestPlan": {
       "title": "Choose the Best Plan for You",
-      "description": "Start free with Basic, scale up to Professional for growing institutions, or go Premium for unlimited access. Lifetime plan saves you the most long-term.",
+      "description": "Start free with Basic, scale up to Professional for growing institutions, or choose Premium for unlimited access. Lifetime gives you Premium features for a one-time payment plus exclusive beta access.",
       "basic": {
         "name": "Basic Plan",
         "price": "Free forever",
@@ -325,7 +326,7 @@
       "lifetime": {
         "name": "Lifetime",
         "price": "$500 once",
-        "description": "Best long-term value"
+        "description": "Same as Premium, pay once"
       }
     },
     "faq": {
@@ -347,7 +348,7 @@
         },
         "refunds": {
           "question": "Do you offer refunds?",
-          "answer": "We offer a 30-day money-back guarantee on all paid plans. If you're not satisfied, contact our support team for a full refund."
+          "answer": "All subscription payments to Scolink are final and non-refundable. We strongly encourage you to start with our free Basic plan or contact our support team before upgrading to ensure our service meets your needs."
         },
         "paymentMethods": {
           "question": "What payment methods do you accept?",
@@ -355,7 +356,7 @@
         },
         "lifetimeAccess": {
           "question": "Is the Lifetime plan really lifetime access?",
-          "answer": "Yes! The Lifetime plan gives you permanent access to all current features plus any new features we release in the future, all for a one-time payment."
+          "answer": "Yes! The Lifetime plan gives you permanent access to all Premium features plus exclusive beta features access, all for a one-time payment of $500."
         },
         "dataSecurity": {
           "question": "Is my data secure?",
@@ -367,14 +368,14 @@
         },
         "support": {
           "question": "What kind of support do you provide?",
-          "answer": "Basic plans include email support, Professional and Premium plans include priority support, and Lifetime plans include dedicated account management with direct access to our development team."
+          "answer": "Basic plans include email support, Professional plans include priority support, Premium and Lifetime plans include dedicated account management with direct access to our development team."
         }
       }
     },
     "cta": {
       "title": "Ready to Get Started?",
       "description": "Choose your plan today and transform your educational institution with Scolink's comprehensive management platform.",
-      "startTrial": "Start Free Trial",
+      "startTrial": "Try Basic Plan Free",
       "contactSales": "Contact Sales Team",
       "loginUrl": "https://app.scolink.ink/login"
     },

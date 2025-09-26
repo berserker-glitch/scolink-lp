@@ -47,12 +47,12 @@
     "subtitle": "Centre Éducatif",
     "description": "Système de gestion complet pour les institutions éducatives. Gérez les étudiants, suivez les paiements, surveillez les performances et rationalisez les opérations avec des analyses en temps réel et un support multi-sites.",
     "cta": {
-      "primary": "Commencer l'Essai Gratuit",
+      "primary": "Essayez le Plan Basic Gratuit",
       "secondary": "Planifier une Démo"
     },
     "features": {
       "noSetup": "Aucun frais d'installation",
-      "freeTrial": "Essai gratuit de 30 jours",
+      "freeTrial": "Plan Basic gratuit disponible",
       "support": "Support entreprise"
     }
   },
@@ -124,7 +124,7 @@
     "cta": {
       "title": "Prêt à Transformer Votre Centre Éducatif ?",
       "description": "Rejoignez des milliers d'institutions éducatives dans le monde qui font confiance à Scolink pour leurs besoins de gestion.",
-      "trial": "Commencer l'Essai Gratuit",
+      "trial": "Essayez le Plan Basic Gratuit",
       "demo": "Planifier une Démo"
     }
   },
@@ -176,9 +176,9 @@
   },
   "cta": {
     "title": "Prêt à Élever Votre Centre Éducatif ?",
-    "subtitle": "Rejoignez les institutions éducatives leaders utilisant Scolink pour rationaliser les opérations, optimiser les paiements et améliorer la réussite des étudiants. Commencez votre essai gratuit dès aujourd'hui.",
+    "subtitle": "Rejoignez les institutions éducatives leaders utilisant Scolink pour rationaliser les opérations, optimiser les paiements et améliorer la réussite des étudiants. Commencez avec notre plan Basic gratuit dès aujourd'hui.",
     "buttons": {
-      "trial": "Commencer l'Essai Gratuit de 30 Jours",
+      "trial": "Essayez le Plan Basic Gratuit",
       "sales": "Contacter l'Équipe Commerciale"
     }
   },
@@ -196,7 +196,7 @@
     "hero": {
       "title1": "Choisissez le Plan Parfait pour",
       "title2": "Votre Institution",
-      "description": "Commencez gratuitement avec notre plan Basic pour jusqu'à 100 étudiants, ou évoluez vers notre plan Premium avec un nombre illimité d'étudiants et des fonctionnalités avancées. Choisissez l'ajustement parfait pour votre institution éducative.",
+      "description": "Commencez gratuitement avec notre plan Basic pour jusqu'à 100 étudiants, passez au Professionnel pour les institutions en croissance, ou choisissez Premium/À Vie pour un accès illimité. À Vie vous donne les mêmes fonctionnalités Premium mais vous payez une fois ($500) au lieu de mensuellement ($50) - plus l'accès exclusif aux fonctionnalités bêta.",
       "features": {
         "freeBasic": "Plan Basic gratuit",
         "noSetupFees": "Aucun frais d'installation",
@@ -216,8 +216,8 @@
           "paymentTracking": "Suivi des paiements basique",
           "groupScheduling": "Planning basique des groupes",
           "noAttendance": "Pas de prise de présence",
-          "noStaffAccounts": "Comptes personnel",
-          "noTeacherAccounts": "Comptes enseignants"
+          "noStaffAccounts": "Pas de comptes personnel",
+          "noTeacherAccounts": "Pas de comptes enseignants"
         }
       },
       "professional": {
@@ -234,8 +234,8 @@
           "staffAccounts": "Comptes personnel",
           "attendanceTaking": "Prise de présence",
           "advancedAnalytics": "Analyses avancées",
-          "noTeacherAccounts": "Comptes enseignants",
-          "noUnlimitedSubjects": "Sujets illimités"
+          "noTeacherAccounts": "Pas de comptes enseignants",
+          "noUnlimitedSubjects": "Pas de sujets illimités"
         }
       },
       "premium": {
@@ -259,17 +259,18 @@
         "name": "À Vie",
         "price": "$500",
         "period": " paiement unique",
-        "description": "Accès complet à vie à toutes les fonctionnalités",
+        "description": "Identique au Premium mais payez une fois, utilisez à vie",
         "buttonText": "Obtenir l'Accès à Vie",
         "features": {
-          "everythingFromPremium": "Tout du Premium",
-          "lifetimeAccess": "Accès à vie",
-          "newFeatures": "Accès aux nouvelles fonctionnalités",
-          "freeUpdates": "Mises à jour gratuites pour toujours",
+          "students": "Sujets et étudiants illimités",
+          "studentManagement": "Gestion des étudiants",
+          "everythingFluid": "Tout est fluide",
+          "teacherAccounts": "Comptes enseignants",
+          "studentAccounts": "Comptes étudiants",
+          "staffAccounts": "Comptes personnel",
+          "advancedAnalytics": "Analyses avancées",
           "dedicatedManager": "Gestionnaire de compte dédié",
-          "earlyAccess": "Accès anticipé aux fonctionnalités",
-          "migrationAssistance": "Assistance à la migration",
-          "advancedAnalytics": "Analyses avancées"
+          "betaAccess": "Accès aux fonctionnalités bêta"
         }
       }
     },
@@ -306,7 +307,7 @@
     },
     "bestPlan": {
       "title": "Choisissez le Meilleur Plan pour Vous",
-      "description": "Commencez gratuitement avec Basic, évoluez vers Professionnel pour les institutions en croissance, ou optez pour Premium pour un accès illimité. Le plan à vie vous fait économiser le plus sur le long terme.",
+      "description": "Commencez gratuitement avec Basic, évoluez vers Professionnel pour les institutions en croissance, ou choisissez Premium pour un accès illimité. À Vie vous donne les fonctionnalités Premium pour un paiement unique plus l'accès bêta exclusif.",
       "basic": {
         "name": "Plan Basic",
         "price": "Gratuit à vie",
@@ -325,7 +326,7 @@
       "lifetime": {
         "name": "À Vie",
         "price": "$500 une fois",
-        "description": "Meilleure valeur à long terme"
+        "description": "Identique au Premium, payez une fois"
       }
     },
     "faq": {
@@ -347,7 +348,7 @@
         },
         "refunds": {
           "question": "Offrez-vous des remboursements ?",
-          "answer": "Nous offrons une garantie de remboursement de 30 jours sur tous les plans payants. Si vous n'êtes pas satisfait, contactez notre équipe de support pour un remboursement complet."
+          "answer": "Tous les paiements d'abonnement à Scolink sont définitifs et non remboursables. Nous vous encourageons fortement à commencer avec notre plan Basic gratuit ou à contacter notre équipe de support avant de passer à un plan payant pour vous assurer que notre service répond à vos besoins."
         },
         "paymentMethods": {
           "question": "Quels modes de paiement acceptez-vous ?",
@@ -355,7 +356,7 @@
         },
         "lifetimeAccess": {
           "question": "Le plan à vie est-il vraiment un accès à vie ?",
-          "answer": "Oui ! Le plan à vie vous donne un accès permanent à toutes les fonctionnalités actuelles plus toutes les nouvelles fonctionnalités que nous publierons à l'avenir, le tout pour un paiement unique."
+          "answer": "Oui ! Le plan à vie vous donne un accès permanent à toutes les fonctionnalités Premium plus l'accès exclusif aux fonctionnalités bêta, le tout pour un paiement unique de $500."
         },
         "dataSecurity": {
           "question": "Mes données sont-elles sécurisées ?",
@@ -367,14 +368,14 @@
         },
         "support": {
           "question": "Quel type de support proposez-vous ?",
-          "answer": "Les plans Basic incluent un support par email, les plans Professionnel et Premium incluent un support prioritaire, et les plans à vie incluent une gestion de compte dédiée avec un accès direct à notre équipe de développement."
+          "answer": "Les plans Basic incluent un support par email, les plans Professionnel incluent un support prioritaire, les plans Premium et À vie incluent une gestion de compte dédiée avec un accès direct à notre équipe de développement."
         }
       }
     },
     "cta": {
       "title": "Prêt à Commencer ?",
       "description": "Choisissez votre plan aujourd'hui et transformez votre institution éducative avec la plateforme de gestion complète de Scolink.",
-      "startTrial": "Commencer l'Essai Gratuit",
+      "startTrial": "Essayez le Plan Basic Gratuit",
       "contactSales": "Contacter l'Équipe Commerciale",
       "loginUrl": "https://app.scolink.ink/login"
     },
@@ -442,7 +443,7 @@
     },
     "pricing": {
       "title": "Tarifs - Plans du Système de Gestion Scolaire Scolink",
-      "description": "Choisissez le plan parfait pour votre institution éducative. Basique (Gratuit), Professionnel (25€/mois), Premium (50€/mois), ou À Vie (500€). Évoluez selon vos besoins.",
+      "description": "Choisissez le plan parfait pour votre institution éducative. Basique (Gratuit), Professionnel ($25/mois), Premium ($50/mois), ou À Vie ($500). Évoluez selon vos besoins.",
       "keywords": "tarifs gestion scolaire, tarifs logiciel éducatif, plans gestion scolaire, tarifs scolink"
     },
     "terms": {
@@ -520,7 +521,7 @@
       },
       "beforePurchase": {
         "title": "2. Avant votre achat",
-        "content": "Nous vous encourageons fortement à utiliser notre période d'essai gratuite ou à contacter notre équipe de support pour vous assurer que notre service répond à vos besoins."
+        "content": "Nous vous encourageons fortement à commencer avec notre plan Basic gratuit ou à contacter notre équipe de support pour vous assurer que notre service répond à vos besoins."
       },
       "cancellation": {
         "title": "3. Annulation d'abonnement",
