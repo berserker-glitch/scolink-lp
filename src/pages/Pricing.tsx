@@ -301,7 +301,7 @@ const Pricing = () => {
                 <Star className="h-8 w-8 text-primary" />
               </div>
               <p className="text-lg opacity-90 mb-6">
-                {t('pricing.bestPlan.description', 'Start free with Basic, scale up to Professional for growing institutions, or go Premium for unlimited access. Lifetime plan saves you the most long-term.')}
+                {t('pricing.bestPlan.description', 'Start free with Basic, scale up to Professional for growing institutions, or choose Premium for unlimited access. Lifetime gives you Premium features for a one-time payment plus exclusive beta access.')}
               </p>
               <div className="grid md:grid-cols-4 gap-4 text-sm">
                 <div className="bg-white/10 rounded-lg p-4">

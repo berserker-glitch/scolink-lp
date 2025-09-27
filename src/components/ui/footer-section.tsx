@@ -123,6 +123,25 @@ export function Footer() {
 					<FooterLinksComponent />
 				</div>
 			</div>
+
+			{/* Powered by section - centered in the middle */}
+			<div className="flex items-center justify-center gap-2 mt-8">
+				<span className="text-xs text-muted-foreground/70">Powered by</span>
+				{/* Hetzner Icon */}
+				<a
+					href="https://www.hetzner.com"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="hover:opacity-80 transition-opacity duration-300"
+					aria-label="Hetzner"
+				>
+					<img
+						src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Logo_Hetzner.svg"
+						alt="Hetzner"
+						className="h-4 w-auto filter grayscale opacity-70 hover:opacity-100 transition-opacity duration-300"
+					/>
+				</a>
+			</div>
 		</footer>
 	);
 }
