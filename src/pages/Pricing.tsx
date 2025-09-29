@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import FloatingHeader from "@/components/FloatingHeader";
 import { Footer } from "@/components/ui/footer-section";
 import { FAQSchema, BreadcrumbSchema } from "@/components/ui/schema-markup";
+import { useIsMobile } from "@/hooks/use-mobile";
 import {
   CheckCircle,
   X,
@@ -23,6 +24,7 @@ import {
 
 const Pricing = () => {
   const { t } = useTranslation();
+  const isMobile = useIsMobile();
 
   // Scroll to top when component mounts
   useEffect(() => {
@@ -204,14 +206,14 @@ const Pricing = () => {
               {t('pricing.badge', 'Transparent Pricing')}
             </Badge>
 
-            <h1 className="text-4xl md:text-6xl font-black mb-8 text-black leading-tight">
+            <h1 className={`${isMobile ? 'text-3xl' : 'text-4xl md:text-6xl'} font-black mb-8 text-black leading-tight`}>
               {t('pricing.hero.title1', 'Choose the Perfect Plan for')}
               <span className="block bg-gradient-to-r from-primary via-purple-600 to-primary-glow bg-clip-text text-transparent">
                 {t('pricing.hero.title2', 'Your Institution')}
               </span>
             </h1>
 
-            <p className="text-xl text-black/80 mb-12 max-w-4xl mx-auto font-medium leading-relaxed">
+            <p className={`${isMobile ? 'text-lg' : 'text-xl'} text-black/80 mb-12 max-w-4xl mx-auto font-medium leading-relaxed`}>
               {t('pricing.hero.description', 'Start free with our Basic plan for up to 100 students, upgrade to Professional for growing institutions, or choose Premium/Lifetime for unlimited access. Lifetime gives you the same Premium features but you pay once ($500) instead of monthly ($50) - plus exclusive beta features access.')}
             </p>
 
@@ -238,7 +240,7 @@ const Pricing = () => {
       {/* Pricing Cards */}
       <section className="py-24 bg-gradient-to-br from-slate-50 to-blue-50/30">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-4 gap-6 max-w-7xl mx-auto">
+          <div className={`grid ${isMobile ? 'grid-cols-1 gap-4' : 'md:grid-cols-4 gap-6'} max-w-7xl mx-auto`}>
             {plans.map((plan, index) => (
               <Card key={plan.name} className={`hover-lift border-0 shadow-educational relative ${plan.popular ? 'bg-gradient-primary' : 'bg-gradient-card'}`}>
                 {plan.popular && (
@@ -303,7 +305,7 @@ const Pricing = () => {
               <p className="text-lg opacity-90 mb-6">
                 {t('pricing.bestPlan.description', 'Start free with Basic, scale up to Professional for growing institutions, or choose Premium for unlimited access. Lifetime gives you Premium features for a one-time payment plus exclusive beta access.')}
               </p>
-              <div className="grid md:grid-cols-4 gap-4 text-sm">
+              <div className={`grid ${isMobile ? 'grid-cols-2 gap-3 text-xs' : 'md:grid-cols-4 gap-4 text-sm'}`}>
                 <div className="bg-white/10 rounded-lg p-4">
                   <div className="font-semibold">{t('pricing.bestPlan.basic.name', 'Basic Plan')}</div>
                   <div className="text-muted-foreground">{t('pricing.bestPlan.basic.price', 'Free forever')}</div>
@@ -344,7 +346,7 @@ const Pricing = () => {
           </div>
 
           <div className="overflow-x-auto">
-            <table className="w-full border-collapse bg-white shadow-lg rounded-lg">
+            <table className={`w-full border-collapse bg-white shadow-lg rounded-lg ${isMobile ? 'text-xs' : ''}`}>
               <thead>
                 <tr className="border-b">
                   <th className="text-left py-4 px-6 font-semibold">{t('pricing.comparison.table.features', 'Features')}</th>
@@ -518,7 +520,7 @@ const Pricing = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          <div className={`grid ${isMobile ? 'grid-cols-1 gap-6' : 'md:grid-cols-2 gap-8'} max-w-6xl mx-auto`}>
             {faqs.map((faq, index) => (
               <Card key={index} className="hover-lift bg-gradient-card border-0 shadow-educational">
                 <CardHeader>
@@ -543,11 +545,11 @@ const Pricing = () => {
             <p className="text-xl text-white/90 mb-8">
               {t('pricing.cta.description', 'Choose your plan today and transform your educational institution with Scolink\'s comprehensive management platform.')}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className={`flex flex-col ${isMobile ? 'gap-4' : 'sm:flex-row gap-4'} justify-center`}>
               <Button
                 size="lg"
                 variant="secondary"
-                className="px-8 py-6 text-lg hover-lift"
+                className={`${isMobile ? 'px-6 py-5 text-base w-full max-w-xs mx-auto' : 'px-8 py-6 text-lg'} hover-lift`}
                 onClick={() => window.location.href = t('pricing.cta.loginUrl', 'https://app.scolink.ink/login')}
               >
                 {t('pricing.cta.startTrial', 'Try Basic Plan Free')}
@@ -555,7 +557,7 @@ const Pricing = () => {
               </Button>
               <Button
                 size="lg"
-                className="px-8 py-6 text-lg bg-white text-primary hover:bg-white/90"
+                className={`${isMobile ? 'px-6 py-5 text-base w-full max-w-xs mx-auto bg-white text-primary hover:bg-white/90' : 'px-8 py-6 text-lg bg-white text-primary hover:bg-white/90'}`}
                 onClick={() => window.location.href = t('pricing.cta.loginUrl', 'https://app.scolink.ink/login')}
               >
                 {t('pricing.cta.contactSales', 'Contact Sales Team')}

@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import FloatingHeader from "@/components/FloatingHeader";
 import { Footer } from "@/components/ui/footer-section";
 import { BreadcrumbSchema } from "@/components/ui/schema-markup";
+import { useIsMobile } from "@/hooks/use-mobile";
 import {
   Users,
   CreditCard,
@@ -25,6 +26,7 @@ import {
 
 const Features = () => {
   const { t } = useTranslation();
+  const isMobile = useIsMobile();
 
   // Scroll to top when component mounts
   useEffect(() => {
@@ -96,19 +98,19 @@ const Features = () => {
               {t('features.badge', 'Comprehensive Features')}
             </Badge>
 
-            <h1 className="text-4xl md:text-6xl font-black mb-8 text-black leading-tight">
+            <h1 className={`${isMobile ? 'text-3xl' : 'text-4xl md:text-6xl'} font-black mb-8 text-black leading-tight`}>
               {t('features.hero.title1', 'Choose Your Plan,')}
               <span className="block bg-gradient-to-r from-primary via-purple-600 to-primary-glow bg-clip-text text-transparent">
                 {t('features.hero.title2', 'Unlock the Features')}
               </span>
             </h1>
 
-            <p className="text-xl text-black/80 mb-12 max-w-4xl mx-auto font-medium leading-relaxed">
+            <p className={`${isMobile ? 'text-lg' : 'text-xl'} text-black/80 mb-12 max-w-4xl mx-auto font-medium leading-relaxed`}>
               {t('features.hero.description', 'From our free Basic plan to the comprehensive Premium and Lifetime packages, discover which features fit your institution\'s needs. Each plan is designed to scale with your educational center\'s growth.')}
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-              <Button size="lg" className="bg-black hover:bg-black/90 text-white px-10 py-7 text-xl font-semibold hover-lift shadow-2xl border-2 border-black">
+            <div className="flex flex-col gap-6 justify-center items-center mb-16">
+              <Button size="lg" className={`bg-black hover:bg-black/90 text-white hover-lift shadow-2xl border-2 border-black ${isMobile ? 'px-8 py-6 text-lg w-full max-w-xs' : 'px-10 py-7 text-xl'}`}>
                 {t('features.hero.cta', 'Get Started Today')}
                 <ArrowRight className="ml-3 h-6 w-6" />
               </Button>
@@ -129,7 +131,7 @@ const Features = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+          <div className={`grid ${isMobile ? 'grid-cols-1' : 'md:grid-cols-2 lg:grid-cols-3'} gap-8 mb-16`}>
             {features.map((feature, index) => (
               <Card key={index} className="hover-lift bg-gradient-card border-0 shadow-educational animate-fade-up" style={{ animationDelay: `${index * 0.1}s` }}>
                 <CardHeader>
@@ -157,7 +159,7 @@ const Features = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-16">
+          <div className={`grid ${isMobile ? 'grid-cols-1' : 'md:grid-cols-2'} gap-8 mb-16`}>
             {additionalFeatures.map((feature, index) => (
               <Card key={index} className="hover-lift bg-gradient-card border-0 shadow-educational animate-fade-up" style={{ animationDelay: `${(index + 6) * 0.1}s` }}>
                 <CardHeader>
@@ -186,7 +188,7 @@ const Features = () => {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className={`grid ${isMobile ? 'grid-cols-2' : 'md:grid-cols-2 lg:grid-cols-4'} gap-6`}>
               <div className="text-center">
                 <div className="bg-white/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <CheckCircle className="h-8 w-8" />
@@ -228,12 +230,12 @@ const Features = () => {
             <p className="text-lg text-muted-foreground mb-8 max-w-xl mx-auto">
               {t('features.cta.description', 'Join thousands of educational institutions worldwide that trust Scolink for their management needs.')}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg hover-lift">
+            <div className={`flex flex-col ${isMobile ? 'gap-4' : 'sm:flex-row gap-4'} justify-center`}>
+              <Button size="lg" className={`bg-primary hover:bg-primary/90 text-white hover-lift ${isMobile ? 'px-6 py-5 text-base w-full max-w-xs mx-auto' : 'px-8 py-6 text-lg'}`}>
                 {t('features.cta.trial', 'Start Free Trial')}
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button size="lg" variant="outline" className="px-8 py-6 text-lg border-2 border-primary text-primary hover:bg-primary hover:text-white">
+              <Button size="lg" variant="outline" className={`border-2 border-primary text-primary hover:bg-primary hover:text-white ${isMobile ? 'px-6 py-5 text-base w-full max-w-xs mx-auto' : 'px-8 py-6 text-lg'}`}>
                 {t('features.cta.demo', 'Schedule Demo')}
               </Button>
             </div>

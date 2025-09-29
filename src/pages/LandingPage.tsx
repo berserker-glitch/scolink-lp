@@ -7,6 +7,7 @@ import PixelBlast from "@/components/ui/PixelBlast";
 import FloatingHeader from "@/components/FloatingHeader";
 import { Footer } from "@/components/ui/footer-section";
 import { ContainerScroll, CardSticky } from "@/components/ui/cards-stack";
+import { useIsMobile } from "@/hooks/use-mobile";
 // Import images
 import dashboardImage from "../images/dashboard.png";
 import calendarImage from "../images/calendaar and attendace page.png";
@@ -36,6 +37,7 @@ import {
 
 const LandingPage = () => {
   const { t } = useTranslation();
+  const isMobile = useIsMobile();
 
   // Scroll to top when component mounts and handle hash cleanup
   useEffect(() => {
@@ -165,21 +167,21 @@ const LandingPage = () => {
               {t('hero.badge')}
             </Badge>
 
-            <h1 className="text-6xl md:text-8xl font-black mb-8 text-black leading-tight tracking-tight">
+            <h1 className={`${isMobile ? 'text-4xl' : 'text-6xl md:text-8xl'} font-black mb-8 text-black leading-tight tracking-tight`}>
               {t('hero.title')}
               <span className="block bg-gradient-to-r from-primary via-purple-600 to-primary-glow bg-clip-text text-transparent">
                 {t('hero.subtitle')}
               </span>
             </h1>
 
-            <p className="text-2xl md:text-3xl text-black/80 mb-10 max-w-4xl mx-auto font-medium leading-relaxed">
+            <p className={`${isMobile ? 'text-xl' : 'text-2xl md:text-3xl'} text-black/80 mb-10 max-w-4xl mx-auto font-medium leading-relaxed`}>
               {t('hero.description')}
             </p>
-            
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
+
+            <div className={`flex flex-col ${isMobile ? 'gap-4' : 'sm:flex-row gap-6'} justify-center items-center mb-16`}>
               <Button
                 size="lg"
-                className="bg-black hover:bg-black/90 text-white px-10 py-7 text-xl font-semibold hover-lift shadow-2xl border-2 border-black"
+                className={`bg-black hover:bg-black/90 text-white ${isMobile ? 'px-8 py-6 text-lg w-full max-w-xs' : 'px-10 py-7 text-xl'} font-semibold hover-lift shadow-2xl border-2 border-black`}
                 onClick={() => window.location.href = t('nav.loginUrl', 'https://app.scolink.ink/login')}
               >
                 {t('hero.cta.primary')}
@@ -188,14 +190,14 @@ const LandingPage = () => {
               <Button
                 variant="outline"
                 size="lg"
-                className="px-10 py-7 text-xl font-semibold hover-scale border-2 border-black text-black hover:bg-black hover:text-white transition-all duration-300"
+                className={`hover-scale border-2 border-black text-black hover:bg-black hover:text-white transition-all duration-300 ${isMobile ? 'px-8 py-6 text-lg w-full max-w-xs' : 'px-10 py-7 text-xl'}`}
                 onClick={() => window.location.href = t('nav.loginUrl', 'https://app.scolink.ink/login')}
               >
                 {t('hero.cta.secondary')}
               </Button>
             </div>
             
-            <div className="flex flex-wrap justify-center items-center gap-12 text-base font-medium text-black/70">
+            <div className={`flex flex-wrap justify-center items-center ${isMobile ? 'gap-6' : 'gap-12'} text-base font-medium text-black/70`}>
               <div className="flex items-center gap-3">
                 <CheckCircle className="h-5 w-5 text-green-600" />
                 {t('hero.features.noSetup')}
@@ -226,7 +228,7 @@ const LandingPage = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className={`grid ${isMobile ? 'grid-cols-1' : 'md:grid-cols-2 lg:grid-cols-3'} gap-8`}>
             {features.map((feature, index) => (
               <Card key={index} className="hover-lift bg-gradient-card border-0 shadow-educational animate-fade-up" style={{ animationDelay: `${index * 0.1}s` }}>
                 <CardHeader>
@@ -260,14 +262,14 @@ const LandingPage = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className={`grid ${isMobile ? 'grid-cols-2' : 'md:grid-cols-2 lg:grid-cols-4'} gap-8`}>
             {capabilities.map((capability, index) => (
               <div key={index} className="text-center animate-slide-in-left" style={{ animationDelay: `${index * 0.1}s` }}>
-                <div className="bg-gradient-primary rounded-full w-24 h-24 mx-auto mb-6 flex items-center justify-center shadow-glow">
-                  <span className="text-2xl font-bold text-white">{capability.stat}</span>
+                <div className={`bg-gradient-primary rounded-full ${isMobile ? 'w-20 h-20' : 'w-24 h-24'} mx-auto mb-6 flex items-center justify-center shadow-glow`}>
+                  <span className={`${isMobile ? 'text-xl' : 'text-2xl'} font-bold text-white`}>{capability.stat}</span>
                 </div>
-                <h3 className="text-xl font-bold mb-2">{capability.label}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">{capability.description}</p>
+                <h3 className={`${isMobile ? 'text-lg' : 'text-xl'} font-bold mb-2`}>{capability.label}</h3>
+                <p className={`text-muted-foreground ${isMobile ? 'text-xs' : 'text-sm'} leading-relaxed`}>{capability.description}</p>
               </div>
             ))}
           </div>
@@ -286,7 +288,7 @@ const LandingPage = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className={`grid ${isMobile ? 'grid-cols-1' : 'md:grid-cols-3'} gap-8`}>
             <Card className="hover-lift bg-gradient-card border-0 shadow-educational text-center animate-fade-up">
               <CardHeader>
                 <div className="bg-primary/10 rounded-lg p-4 w-fit mx-auto mb-4">
@@ -345,7 +347,7 @@ const LandingPage = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-6 max-w-7xl mx-auto">
+          <div className={`grid ${isMobile ? 'grid-cols-1 gap-4' : 'md:grid-cols-4 gap-6'} max-w-7xl mx-auto`}>
             {/* Basic Plan */}
             <Card className="hover-lift bg-gradient-card border-0 shadow-educational relative">
               <CardHeader className="text-center pb-8">
@@ -536,8 +538,8 @@ const LandingPage = () => {
 
           {/* FAQ Section */}
           <div className="mt-20 text-center">
-            <h3 className="text-3xl font-bold mb-8">Frequently Asked Questions</h3>
-            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <h3 className={`${isMobile ? 'text-2xl' : 'text-3xl'} font-bold mb-8`}>Frequently Asked Questions</h3>
+            <div className={`grid ${isMobile ? 'grid-cols-1 gap-6' : 'md:grid-cols-2 gap-8'} max-w-4xl mx-auto`}>
               <div className="text-left">
                 <h4 className="font-semibold mb-2">Can I change plans anytime?</h4>
                 <p className="text-muted-foreground text-sm">Yes, you can upgrade or downgrade your plan at any time. Changes take effect immediately.</p>
@@ -569,12 +571,12 @@ const LandingPage = () => {
             <p className="text-xl text-white/90 mb-8">
               {t('cta.subtitle')}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="secondary" className="px-8 py-6 text-lg hover-lift">
+            <div className={`flex flex-col ${isMobile ? 'gap-4' : 'sm:flex-row gap-4'} justify-center`}>
+              <Button size="lg" variant="secondary" className={`${isMobile ? 'px-6 py-5 text-base w-full max-w-xs mx-auto' : 'px-8 py-6 text-lg'} hover-lift`}>
                 {t('cta.buttons.trial')}
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button size="lg" className="px-8 py-6 text-lg bg-purple-600 hover:bg-purple-500 text-white border-0 transition-educational">
+              <Button size="lg" className={`${isMobile ? 'px-6 py-5 text-base w-full max-w-xs mx-auto bg-purple-600 hover:bg-purple-500' : 'px-8 py-6 text-lg bg-purple-600 hover:bg-purple-500'} text-white border-0 transition-educational`}>
                 {t('cta.buttons.sales')}
               </Button>
             </div>
