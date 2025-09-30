@@ -550,7 +550,7 @@ const LandingPage = () => {
               </div>
               <div className="text-left">
                 <h4 className="font-semibold mb-2">Do you offer refunds?</h4>
-                <p className="text-muted-foreground text-sm">All subscription payments are final and non-refundable. Use our free Basic plan to evaluate the service first.</p>
+                <p className="text-muted-foreground text-sm">Yes, we offer a 15-day refund guarantee for all subscription plans. If you're not satisfied within the first 15 days, you can request a full refund.</p>
               </div>
               <div className="text-left">
                 <h4 className="font-semibold mb-2">What payment methods do you accept?</h4>

@@ -107,32 +107,32 @@
   },
   "refund": {
     "title": "Politique de remboursement",
-    "description": "Scolink maintient une politique claire et transparente de non-remboursement. Tous les paiements d'abonnement sont définitifs et non remboursables.",
+    "description": "Scolink offre une politique de remboursement de 15 jours pour tous les paiements d'abonnement. Vous pouvez demander un remboursement complet dans les 15 jours suivant l'achat.",
     "lastUpdated": "Dernière mise à jour",
     "sections": {
       "policy": {
-        "title": "Notre politique de non-remboursement",
-        "content": "Tous les paiements d'abonnement à Scolink sont définitifs et non remboursables. Cette politique s'applique à tous les plans d'abonnement, y compris les abonnements mensuels, annuels et à vie. Une fois le paiement traité, aucun remboursement ne sera accordé en aucune circonstance."
+        "title": "Notre politique de remboursement de 15 jours",
+        "content": "Scolink offre une garantie de remboursement de 15 jours pour tous les plans d'abonnement, y compris les abonnements mensuels, annuels et à vie. Si vous n'êtes pas satisfait de notre service dans les 15 premiers jours de votre abonnement, vous pouvez demander un remboursement complet. Les demandes de remboursement doivent être soumises dans les 15 jours suivant la date d'achat initiale."
       },
       "reasoning": {
-        "title": "1. Pourquoi nous n'offrons pas de remboursements",
-        "content": "En tant que fournisseur de services logiciels basés sur le cloud, nous allouons immédiatement des ressources, de la capacité serveur et une infrastructure technique lors de l'activation du compte. Notre équipe investit du temps dans l'intégration, l'assistance à la migration des données et la fourniture continue de services dès le premier jour. Ces coûts sont engagés immédiatement et ne peuvent être récupérés."
+        "title": "1. Pourquoi nous offrons une période de remboursement de 15 jours",
+        "content": "Nous croyons en la qualité de notre plateforme de gestion éducative et voulons donner aux institutions la confiance d'essayer notre service. La période de 15 jours permet suffisamment de temps pour évaluer toutes les fonctionnalités, tester les intégrations et s'assurer que Scolink répond aux besoins spécifiques de votre institution. Pendant cette période, vous pouvez explorer pleinement la plateforme, importer vos données et expérimenter le flux de travail complet."
       },
       "beforePurchase": {
         "title": "2. Avant de faire votre achat",
-        "content": "Nous encourageons fortement tous les clients potentiels à évaluer minutieusement notre service avant de s'engager dans un abonnement payant. Commencez avec notre plan Basic gratuit, planifiez une démonstration personnalisée avec notre équipe, consultez notre documentation complète et notre liste de fonctionnalités, et contactez notre équipe de support pour toute question sur la fonctionnalité ou la compatibilité avec les besoins de votre institution."
+        "content": "Bien que nous offrions une généreuse période de remboursement de 15 jours, nous encourageons tous les clients potentiels à évaluer minutieusement notre service avant de s'engager. Commencez avec notre plan Basic gratuit, planifiez une démonstration personnalisée avec notre équipe, consultez notre documentation complète et notre liste de fonctionnalités, et contactez notre équipe de support pour toute question sur la fonctionnalité ou la compatibilité avec les besoins de votre institution."
       },
       "cancellation": {
-        "title": "3. Gestion et annulation d'abonnement",
-        "content": "Bien que nous n'offrions pas de remboursements, vous avez un contrôle total sur votre abonnement. Vous pouvez annuler votre abonnement à tout moment via votre tableau de bord de compte ou en contactant notre équipe de support. L'annulation prend effet à la fin de votre période de facturation actuelle, et vous continuerez à avoir accès à toutes les fonctionnalités jusqu'à cette date. Aucun remboursement partiel n'est fourni pour le temps non utilisé."
+        "title": "3. Processus de remboursement et annulation",
+        "content": "Pour demander un remboursement dans la période de 15 jours, contactez notre équipe de support via votre tableau de bord de compte ou par email. Les remboursements seront traités dans les 5-7 jours ouvrables et incluront le montant complet de l'abonnement. Après la période de 15 jours, les abonnements deviennent non remboursables mais vous pouvez annuler à tout moment. L'annulation prend effet à la fin de votre période de facturation actuelle, et vous continuerez à avoir accès à toutes les fonctionnalités jusqu'à cette date."
       },
       "alternatives": {
-        "title": "4. Solutions alternatives",
-        "content": "Si vous rencontrez des problèmes avec notre service, nous vous encourageons à contacter notre équipe de support en premier lieu. Nous offrons des ressources de formation complètes, une assistance personnalisée à l'intégration, un support technique pour résoudre tout problème, et des conseils pour maximiser la valeur de votre abonnement. Notre objectif est d'assurer votre succès avec Scolink."
+        "title": "4. Support pendant la période d'essai",
+        "content": "Pendant votre période d'évaluation de 15 jours, notre équipe de support est disponible pour vous aider avec la configuration, la migration des données, la formation et tout problème technique. Nous offrons des ressources de formation complètes, une assistance personnalisée à l'intégration, un support technique et des conseils pour maximiser la valeur de votre abonnement. Notre objectif est d'assurer votre succès avec Scolink dès le premier jour."
       },
       "contact": {
         "title": "5. Questions et support",
-        "content": "Si vous avez des questions sur cette politique de remboursement ou avez besoin d'aide avec votre abonnement, veuillez contacter notre équipe de support avant de prendre une décision d'achat. Nous sommes là pour vous aider à faire un choix éclairé et nous assurer que Scolink convient à votre institution éducative."
+        "content": "Si vous avez des questions sur cette politique de remboursement ou avez besoin d'aide avec votre abonnement, veuillez contacter notre équipe de support. Nous sommes là pour vous aider à faire un choix éclairé et nous assurer que Scolink convient à votre institution éducative. Pour les demandes de remboursement, veuillez inclure les détails de votre compte et la raison du remboursement."
       }
     }
   }

@@ -348,7 +348,7 @@
         },
         "refunds": {
           "question": "Do you offer refunds?",
-          "answer": "All subscription payments to Scolink are final and non-refundable. We strongly encourage you to start with our free Basic plan or contact our support team before upgrading to ensure our service meets your needs."
+          "answer": "Yes, we offer a 15-day refund guarantee for all subscription plans. If you're not satisfied with our service within the first 15 days of your subscription, you can request a full refund. Refund requests must be submitted within 15 days of purchase."
         },
         "paymentMethods": {
           "question": "What payment methods do you accept?",
@@ -407,8 +407,8 @@
     },
     "refund": {
       "title": "Refund Policy - Scolink Educational Platform",
-      "description": "Review Scolink's non-refundable subscription policy and cancellation process.",
-      "keywords": "refund policy, scolink refunds, subscription policy"
+      "description": "Review Scolink's 15-day refund guarantee and cancellation process for all subscription plans.",
+      "keywords": "refund policy, scolink refunds, subscription policy, 15-day refund guarantee"
     },
     "404": {
       "title": "Page Not Found - Scolink School Management System",

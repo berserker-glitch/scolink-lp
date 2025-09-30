@@ -122,7 +122,7 @@ const Pricing = () => {
     },
     {
       question: t('pricing.faq.questions.refunds.question', "Do you offer refunds?"),
-      answer: t('pricing.faq.questions.refunds.answer', "All subscription payments to Scolink are final and non-refundable. We strongly encourage you to start with our free Basic plan or contact our support team before upgrading to ensure our service meets your needs.")
+      answer: t('pricing.faq.questions.refunds.answer', "Yes, we offer a 15-day refund guarantee for all subscription plans. If you're not satisfied with our service within the first 15 days of your subscription, you can request a full refund. Refund requests must be submitted within 15 days of purchase.")
     },
     {
       question: t('pricing.faq.questions.paymentMethods.question', "What payment methods do you accept?"),
@@ -162,7 +162,7 @@ const Pricing = () => {
     },
     {
       question: "Do you offer refunds?",
-      answer: "All subscription payments to Scolink are final and non-refundable. We strongly encourage you to start with our free Basic plan or contact our support team before upgrading to ensure our service meets your needs."
+      answer: "Yes, we offer a 15-day refund guarantee for all subscription plans. If you're not satisfied with our service within the first 15 days of your subscription, you can request a full refund. Refund requests must be submitted within 15 days of purchase."
     },
     {
       question: "What payment methods do you accept?",
