@@ -379,41 +379,42 @@
       "contactSales": "Contact Sales Team",
       "loginUrl": "https://app.scolink.ink/login"
     },
-  "seo": {
-    "home": {
-      "title": "Scolink - School Management System | Educational Center Platform",
-      "description": "Complete school management system for educational centers. Student management, attendance tracking, scheduling, payments, and analytics. Multi-language support: English, French, Arabic.",
-      "keywords": "school management system, educational center management, student management software, school administration, attendance management, educational platform, scolink"
-    },
-    "features": {
-      "title": "Features - Scolink School Management System",
-      "description": "Discover comprehensive features for school management: student lifecycle management, payment tracking, subject management, staff management, scheduling, and analytics.",
-      "keywords": "school management features, student management system, attendance tracking, payment management, educational software features"
-    },
-    "pricing": {
-      "title": "Pricing - Scolink School Management System Plans",
-      "description": "Choose the perfect plan for your educational institution. Basic (Free), Professional ($25/mo), Premium ($50/mo), or Lifetime ($500). Scale with your needs.",
-      "keywords": "school management pricing, educational software pricing, school management plans, scolink pricing"
-    },
-    "terms": {
-      "title": "Terms of Service - Scolink Educational Platform",
-      "description": "Read Scolink's terms of service for our educational management platform. Learn about service usage, data privacy, and legal agreements.",
-      "keywords": "terms of service, educational platform terms, scolink legal, school management terms"
-    },
-    "privacy": {
-      "title": "Privacy Policy - Scolink Educational Platform",
-      "description": "Understand how Scolink protects data for Moroccan educational institutions using our platform.",
-      "keywords": "privacy policy, scolink privacy, Moroccan data protection"
-    },
-    "refund": {
-      "title": "Refund Policy - Scolink Educational Platform",
-      "description": "Review Scolink's 15-day refund guarantee and cancellation process for all subscription plans.",
-      "keywords": "refund policy, scolink refunds, subscription policy, 15-day refund guarantee"
-    },
-    "404": {
-      "title": "Page Not Found - Scolink School Management System",
-      "description": "The page you're looking for doesn't exist. Return to Scolink's school management platform homepage.",
-      "keywords": "404 error, page not found, scolink school management"
+    "seo": {
+      "home": {
+        "title": "Scolink - School Management System | Educational Center Platform",
+        "description": "Complete school management system for educational centers. Student management, attendance tracking, scheduling, payments, and analytics. Multi-language support: English, French, Arabic.",
+        "keywords": "school management system, educational center management, student management software, school administration, attendance management, educational platform, scolink"
+      },
+      "features": {
+        "title": "Features - Scolink School Management System",
+        "description": "Discover comprehensive features for school management: student lifecycle management, payment tracking, subject management, staff management, scheduling, and analytics.",
+        "keywords": "school management features, student management system, attendance tracking, payment management, educational software features"
+      },
+      "pricing": {
+        "title": "Pricing - Scolink School Management System Plans",
+        "description": "Choose the perfect plan for your educational institution. Basic (Free), Professional ($25/mo), Premium ($50/mo), or Lifetime ($500). Scale with your needs.",
+        "keywords": "school management pricing, educational software pricing, school management plans, scolink pricing"
+      },
+      "terms": {
+        "title": "Terms of Service - Scolink Educational Platform",
+        "description": "Read Scolink's terms of service for our educational management platform. Learn about service usage, data privacy, and legal agreements.",
+        "keywords": "terms of service, educational platform terms, scolink legal, school management terms"
+      },
+      "privacy": {
+        "title": "Privacy Policy - Scolink Educational Platform",
+        "description": "Understand how Scolink protects data for Moroccan educational institutions using our platform.",
+        "keywords": "privacy policy, scolink privacy, Moroccan data protection"
+      },
+      "refund": {
+        "title": "Refund Policy - Scolink Educational Platform",
+        "description": "Review Scolink's 15-day refund guarantee and cancellation process for all subscription plans.",
+        "keywords": "refund policy, scolink refunds, subscription policy, 15-day refund guarantee"
+      },
+      "404": {
+        "title": "Page Not Found - Scolink School Management System",
+        "description": "The page you're looking for doesn't exist. Return to Scolink's school management platform homepage.",
+        "keywords": "404 error, page not found, scolink school management"
+      }
     }
   }
-}}
+}

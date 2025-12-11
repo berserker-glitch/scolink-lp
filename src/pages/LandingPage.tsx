@@ -140,12 +140,12 @@ const LandingPage = () => {
     <div className="min-h-screen">
       {/* Floating Header */}
       <FloatingHeader />
-      
+
       {/* Hero Section */}
       <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Animation */}
         <div className="absolute inset-0 z-0">
-          <PixelBlast 
+          <PixelBlast
             variant="circle"
             pixelSize={3}
             color="#8B5CF6"
@@ -158,7 +158,7 @@ const LandingPage = () => {
             transparent={true}
           />
         </div>
-        
+
         {/* Hero Content */}
         <div className="relative z-10 container mx-auto px-4 text-center">
           <div className="max-w-5xl mx-auto animate-fade-up">
@@ -196,7 +196,7 @@ const LandingPage = () => {
                 {t('hero.cta.secondary')}
               </Button>
             </div>
-            
+
             <div className={`flex flex-wrap justify-center items-center ${isMobile ? 'gap-6' : 'gap-12'} text-base font-medium text-black/70`}>
               <div className="flex items-center gap-3">
                 <CheckCircle className="h-5 w-5 text-green-600" />
@@ -227,7 +227,7 @@ const LandingPage = () => {
               {t('features.description')}
             </p>
           </div>
-          
+
           <div className={`grid ${isMobile ? 'grid-cols-1' : 'md:grid-cols-2 lg:grid-cols-3'} gap-8`}>
             {features.map((feature, index) => (
               <Card key={index} className="hover-lift bg-gradient-card border-0 shadow-educational animate-fade-up" style={{ animationDelay: `${index * 0.1}s` }}>
@@ -261,7 +261,7 @@ const LandingPage = () => {
               {t('capabilities.description')}
             </p>
           </div>
-          
+
           <div className={`grid ${isMobile ? 'grid-cols-2' : 'md:grid-cols-2 lg:grid-cols-4'} gap-8`}>
             {capabilities.map((capability, index) => (
               <div key={index} className="text-center animate-slide-in-left" style={{ animationDelay: `${index * 0.1}s` }}>
@@ -287,7 +287,7 @@ const LandingPage = () => {
               {t('technology.description')}
             </p>
           </div>
-          
+
           <div className={`grid ${isMobile ? 'grid-cols-1' : 'md:grid-cols-3'} gap-8`}>
             <Card className="hover-lift bg-gradient-card border-0 shadow-educational text-center animate-fade-up">
               <CardHeader>
@@ -302,7 +302,7 @@ const LandingPage = () => {
                 </CardDescription>
               </CardContent>
             </Card>
-            
+
             <Card className="hover-lift bg-gradient-card border-0 shadow-educational text-center animate-fade-up" style={{ animationDelay: '0.1s' }}>
               <CardHeader>
                 <div className="bg-primary/10 rounded-lg p-4 w-fit mx-auto mb-4">
@@ -316,7 +316,7 @@ const LandingPage = () => {
                 </CardDescription>
               </CardContent>
             </Card>
-            
+
             <Card className="hover-lift bg-gradient-card border-0 shadow-educational text-center animate-fade-up" style={{ animationDelay: '0.2s' }}>
               <CardHeader>
                 <div className="bg-primary/10 rounded-lg p-4 w-fit mx-auto mb-4">
@@ -582,7 +582,7 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
-        
+
         {/* Background Elements */}
         <div className="absolute -top-20 -right-20 w-40 h-40 bg-white/10 rounded-full"></div>
         <div className="absolute -bottom-20 -left-20 w-60 h-60 bg-white/10 rounded-full"></div>

@@ -72,7 +72,7 @@ const FloatingHeader = () => {
     <header 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled 
-          ? 'bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-200/50' 
+          ? 'glass shadow-md' 
           : 'bg-transparent'
       }`}
     >
@@ -114,7 +114,7 @@ const FloatingHeader = () => {
               {t('nav.signin', 'Sign In')}
             </Button>
             <Button
-              className="bg-primary hover:bg-primary/90 text-white transition-all duration-300"
+              className="bg-primary hover:bg-primary/90 text-white hover-lift"
               onClick={() => {
                 const heroElement = document.getElementById('hero');
                 if (heroElement) {
@@ -145,7 +145,7 @@ const FloatingHeader = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-200/50">
+          <div className="md:hidden py-4 border-t border-gray-200/50 glass absolute left-0 right-0 px-4 shadow-lg">
             <nav className="flex flex-col gap-4">
               {navItems.map((item) => (
                 <button
